@@ -110,18 +110,19 @@ turn 16
     token: .                  pos tag: PUNCT          lemma: .
     token: :-)                pos tag: PUNCT          lemma: :-)
 turn 17
-    sentence: what is the topic? my link does not work.
+    sentence: what is the topic?
     token: what           pos tag: PRON           lemma: what
     token: is             pos tag: AUX            lemma: be
     token: the            pos tag: DET            lemma: the
     token: topic          pos tag: NOUN           lemma: topic
     token: ?              pos tag: PUNCT          lemma: ?
-    token: my             pos tag: PRON           lemma: my
-    token: link           pos tag: NOUN           lemma: link
-    token: does           pos tag: AUX            lemma: do
-    token: not            pos tag: PART           lemma: not
-    token: work           pos tag: VERB           lemma: work
-    token: .              pos tag: PUNCT          lemma: .
+    sentence: my link does not work.
+    token: my            pos tag: PRON           lemma: my
+    token: link          pos tag: NOUN           lemma: link
+    token: does          pos tag: AUX            lemma: do
+    token: not           pos tag: PART           lemma: not
+    token: work          pos tag: VERB           lemma: work
+    token: .             pos tag: PUNCT          lemma: .
 turn 18
     sentence: it's about hallmark holidays
     token: it                pos tag: PRON          lemma: it
@@ -260,21 +261,23 @@ turn 33
     token: us                 pos tag: PRON           lemma: we
     token: too                pos tag: ADV            lemma: too
 turn 34
-    sentence: i like them all. although i never heard about some of them. like christmas in july or boss' day
-    token: i                  pos tag: PRON           lemma: I
-    token: like               pos tag: VERB           lemma: like
-    token: them               pos tag: PRON           lemma: they
-    token: all                pos tag: PRON           lemma: all
-    token: .                  pos tag: PUNCT          lemma: .
-    token: although           pos tag: SCONJ          lemma: although
-    token: i                  pos tag: PRON           lemma: I
-    token: never              pos tag: ADV            lemma: never
-    token: heard              pos tag: VERB           lemma: hear
-    token: about              pos tag: ADP            lemma: about
-    token: some               pos tag: PRON           lemma: some
-    token: of                 pos tag: ADP            lemma: of
-    token: them               pos tag: PRON           lemma: they
-    token: .                  pos tag: PUNCT          lemma: .
+    sentence: i like them all.
+    token: i             pos tag: PRON           lemma: I
+    token: like          pos tag: VERB           lemma: like
+    token: them          pos tag: PRON           lemma: they
+    token: all           pos tag: PRON           lemma: all
+    token: .             pos tag: PUNCT          lemma: .
+    sentence: although i never heard about some of them.
+    token: although          pos tag: SCONJ          lemma: although
+    token: i                 pos tag: PRON           lemma: I
+    token: never             pos tag: ADV            lemma: never
+    token: heard             pos tag: VERB           lemma: hear
+    token: about             pos tag: ADP            lemma: about
+    token: some              pos tag: PRON           lemma: some
+    token: of                pos tag: ADP            lemma: of
+    token: them              pos tag: PRON           lemma: they
+    token: .                 pos tag: PUNCT          lemma: .
+    sentence: like christmas in july or boss' day
     token: like               pos tag: ADP            lemma: like
     token: christmas          pos tag: PROPN          lemma: christmas
     token: in                 pos tag: ADP            lemma: in
@@ -362,41 +365,46 @@ turn 40
     token: with           pos tag: ADP            lemma: with
     token: lynn           pos tag: PROPN          lemma: lynn
 turn 41
-    sentence: This is the defn for sweetest day: Sweetest Day is an observance celebrated primarily in the Great Lakes region and parts of the Northeast United States on the third Saturday in October. It is described by Retail Confectioners International as an "occasion which offers all of us an opportunity to remember not only the sick, aged and orphaned, but also friends, relatives and associates whose helpfulness and kindness we have enjoyed."Sweetest Day has also been referred to as a "concocted promotion" created by the candy industry solely to increase sales of candy.
-    token: This                                         pos tag: PRON           lemma: this
-    token: is                                           pos tag: AUX            lemma: be
-    token: the                                          pos tag: DET            lemma: the
-    token: defn                                         pos tag: PROPN          lemma: defn
-    token: for                                          pos tag: ADP            lemma: for
-    token: sweetest                                     pos tag: PROPN          lemma: sweetest
-    token: day                                          pos tag: NOUN           lemma: day
-    token: :                                            pos tag: PUNCT          lemma: :
-    token: Sweetest                                     pos tag: PROPN          lemma: Sweetest
-    token: Day                                          pos tag: PROPN          lemma: Day
-    token: is                                           pos tag: AUX            lemma: be
-    token: an                                           pos tag: DET            lemma: an
-    token: observance                                   pos tag: NOUN           lemma: observance
-    token: celebrated                                   pos tag: VERB           lemma: celebrate
-    token: primarily                                    pos tag: ADV            lemma: primarily
-    token: in                                           pos tag: ADP            lemma: in
-    token: the                                          pos tag: DET            lemma: the
-    token: Great                                        pos tag: PROPN          lemma: Great
-    token: Lakes                                        pos tag: PROPN          lemma: Lakes
-    token: region                                       pos tag: NOUN           lemma: region
-    token: and                                          pos tag: CCONJ          lemma: and
-    token: parts                                        pos tag: NOUN           lemma: part
-    token: of                                           pos tag: ADP            lemma: of
-    token: the                                          pos tag: DET            lemma: the
-    token: Northeast                                    pos tag: PROPN          lemma: Northeast
-    token: United                                       pos tag: PROPN          lemma: United
-    token: States                                       pos tag: PROPN          lemma: States
-    token: on                                           pos tag: ADP            lemma: on
-    token: the                                          pos tag: DET            lemma: the
-    token: third                                        pos tag: ADJ            lemma: third
-    token: Saturday                                     pos tag: PROPN          lemma: Saturday
-    token: in                                           pos tag: ADP            lemma: in
-    token: October                                      pos tag: PROPN          lemma: October
-    token: .                                            pos tag: PUNCT          lemma: .
+    sentence: This is the defn for sweetest day: Sweetest Day is an observance celebrated primarily in the Great Lakes region and parts of the Northeast United States on the third Saturday in October.
+    token: This                         pos tag: PRON           lemma: this
+    token: is                           pos tag: AUX            lemma: be
+    token: the                          pos tag: DET            lemma: the
+    token: defn                         pos tag: PROPN          lemma: defn
+    token: for                          pos tag: ADP            lemma: for
+    token: sweetest                     pos tag: PROPN          lemma: sweetest
+    token: day                          pos tag: NOUN           lemma: day
+    token: :                            pos tag: PUNCT          lemma: :
+    token: Sweetest                     pos tag: PROPN          lemma: Sweetest
+    token: Day                          pos tag: PROPN          lemma: Day
+    token: is                           pos tag: AUX            lemma: be
+    token: an                           pos tag: DET            lemma: an
+    token: observance                   pos tag: NOUN           lemma: observance
+    token: celebrated                   pos tag: VERB           lemma: celebrate
+    token: primarily                    pos tag: ADV            lemma: primarily
+    token: in                           pos tag: ADP            lemma: in
+    token: the                          pos tag: DET            lemma: the
+    token: Great                        pos tag: PROPN          lemma: Great
+    token: Lakes                        pos tag: PROPN          lemma: Lakes
+    token: region                       pos tag: NOUN           lemma: region
+    token: and                          pos tag: CCONJ          lemma: and
+    token: parts                        pos tag: NOUN           lemma: part
+    token: of                           pos tag: ADP            lemma: of
+    token: the                          pos tag: DET            lemma: the
+    token: Northeast                    pos tag: PROPN          lemma: Northeast
+    token: United                       pos tag: PROPN          lemma: United
+    token: States                       pos tag: PROPN          lemma: States
+    token: on                           pos tag: ADP            lemma: on
+    token: the                          pos tag: DET            lemma: the
+    token: third                        pos tag: ADJ            lemma: third
+    token: Saturday                     pos tag: PROPN          lemma: Saturday
+    token: in                           pos tag: ADP            lemma: in
+    token: October                      pos tag: PROPN          lemma: October
+    token: .                            pos tag: PUNCT          lemma: .
+    named_entities: Sweetest Day        type: EVENT
+    named_entities: Great Lakes         type: GPE
+    named_entities: the third Saturday  type: DATE
+    named_entities: October             type: DATE
+    sentence: It is described by Retail Confectioners International as an "occasion which offers all of us an opportunity to remember not only the sick, aged and orphaned, but also friends, relatives and associates whose helpfulness and kindness we have enjoyed.
     token: It                                           pos tag: PRON           lemma: it
     token: is                                           pos tag: AUX            lemma: be
     token: described                                    pos tag: VERB           lemma: describe
@@ -441,36 +449,33 @@ turn 41
     token: have                                         pos tag: AUX            lemma: have
     token: enjoyed                                      pos tag: VERB           lemma: enjoy
     token: .                                            pos tag: PUNCT          lemma: .
-    token: "Sweetest                                    pos tag: ADJ            lemma: "sweet
-    token: Day                                          pos tag: PROPN          lemma: Day
-    token: has                                          pos tag: AUX            lemma: have
-    token: also                                         pos tag: ADV            lemma: also
-    token: been                                         pos tag: AUX            lemma: be
-    token: referred                                     pos tag: VERB           lemma: refer
-    token: to                                           pos tag: ADP            lemma: to
-    token: as                                           pos tag: ADP            lemma: as
-    token: a                                            pos tag: DET            lemma: a
-    token: "                                            pos tag: PUNCT          lemma: "
-    token: concocted                                    pos tag: ADJ            lemma: concocted
-    token: promotion                                    pos tag: NOUN           lemma: promotion
-    token: "                                            pos tag: PUNCT          lemma: "
-    token: created                                      pos tag: VERB           lemma: create
-    token: by                                           pos tag: ADP            lemma: by
-    token: the                                          pos tag: DET            lemma: the
-    token: candy                                        pos tag: NOUN           lemma: candy
-    token: industry                                     pos tag: NOUN           lemma: industry
-    token: solely                                       pos tag: ADV            lemma: solely
-    token: to                                           pos tag: PART           lemma: to
-    token: increase                                     pos tag: VERB           lemma: increase
-    token: sales                                        pos tag: NOUN           lemma: sale
-    token: of                                           pos tag: ADP            lemma: of
-    token: candy                                        pos tag: NOUN           lemma: candy
-    token: .                                            pos tag: PUNCT          lemma: .
-    named_entities: Sweetest Day                        type: EVENT
-    named_entities: Great Lakes                         type: GPE
-    named_entities: the third Saturday                  type: DATE
-    named_entities: October                             type: DATE
     named_entities: Retail Confectioners International  type: ORG
+    sentence: "Sweetest Day has also been referred to as a "concocted promotion" created by the candy industry solely to increase sales of candy.
+    token: "Sweetest          pos tag: ADJ            lemma: "sweet
+    token: Day                pos tag: PROPN          lemma: Day
+    token: has                pos tag: AUX            lemma: have
+    token: also               pos tag: ADV            lemma: also
+    token: been               pos tag: AUX            lemma: be
+    token: referred           pos tag: VERB           lemma: refer
+    token: to                 pos tag: ADP            lemma: to
+    token: as                 pos tag: ADP            lemma: as
+    token: a                  pos tag: DET            lemma: a
+    token: "                  pos tag: PUNCT          lemma: "
+    token: concocted          pos tag: ADJ            lemma: concocted
+    token: promotion          pos tag: NOUN           lemma: promotion
+    token: "                  pos tag: PUNCT          lemma: "
+    token: created            pos tag: VERB           lemma: create
+    token: by                 pos tag: ADP            lemma: by
+    token: the                pos tag: DET            lemma: the
+    token: candy              pos tag: NOUN           lemma: candy
+    token: industry           pos tag: NOUN           lemma: industry
+    token: solely             pos tag: ADV            lemma: solely
+    token: to                 pos tag: PART           lemma: to
+    token: increase           pos tag: VERB           lemma: increase
+    token: sales              pos tag: NOUN           lemma: sale
+    token: of                 pos tag: ADP            lemma: of
+    token: candy              pos tag: NOUN           lemma: candy
+    token: .                  pos tag: PUNCT          lemma: .
 turn 42
     sentence: i'd never heard of sweetest day either
     token: i                 pos tag: PRON           lemma: I
@@ -500,15 +505,16 @@ turn 45
     token: so             pos tag: ADV           lemma: so
     token: weird          pos tag: ADJ           lemma: weird
 turn 46
-    sentence: how do you celebrate? buying candy?
+    sentence: how do you celebrate?
     token: how                pos tag: SCONJ          lemma: how
     token: do                 pos tag: AUX            lemma: do
     token: you                pos tag: PRON           lemma: you
     token: celebrate          pos tag: VERB           lemma: celebrate
     token: ?                  pos tag: PUNCT          lemma: ?
-    token: buying             pos tag: VERB           lemma: buy
-    token: candy              pos tag: NOUN           lemma: candy
-    token: ?                  pos tag: PUNCT          lemma: ?
+    sentence: buying candy?
+    token: buying          pos tag: VERB           lemma: buy
+    token: candy           pos tag: NOUN           lemma: candy
+    token: ?               pos tag: PUNCT          lemma: ?
 turn 47
     sentence: the candy industry must be important up there
     token: the                pos tag: DET           lemma: the
@@ -527,7 +533,7 @@ turn 49
     sentence: weird
     token: weird          pos tag: ADJ          lemma: weird
 turn 50
-    sentence: i celebrate octoberfest instead of sweetest day. it is very commercial, and hallmark has nothing to do with it
+    sentence: i celebrate octoberfest instead of sweetest day.
     token: i                    pos tag: PRON           lemma: I
     token: celebrate            pos tag: VERB           lemma: celebrate
     token: octoberfest          pos tag: ADJ            lemma: octoberf
@@ -536,19 +542,20 @@ turn 50
     token: sweetest             pos tag: PROPN          lemma: sweetest
     token: day                  pos tag: NOUN           lemma: day
     token: .                    pos tag: PUNCT          lemma: .
-    token: it                   pos tag: PRON           lemma: it
-    token: is                   pos tag: AUX            lemma: be
-    token: very                 pos tag: ADV            lemma: very
-    token: commercial           pos tag: ADJ            lemma: commercial
-    token: ,                    pos tag: PUNCT          lemma: ,
-    token: and                  pos tag: CCONJ          lemma: and
-    token: hallmark             pos tag: NOUN           lemma: hallmark
-    token: has                  pos tag: VERB           lemma: have
-    token: nothing              pos tag: PRON           lemma: nothing
-    token: to                   pos tag: PART           lemma: to
-    token: do                   pos tag: VERB           lemma: do
-    token: with                 pos tag: ADP            lemma: with
-    token: it                   pos tag: PRON           lemma: it
+    sentence: it is very commercial, and hallmark has nothing to do with it
+    token: it                  pos tag: PRON           lemma: it
+    token: is                  pos tag: AUX            lemma: be
+    token: very                pos tag: ADV            lemma: very
+    token: commercial          pos tag: ADJ            lemma: commercial
+    token: ,                   pos tag: PUNCT          lemma: ,
+    token: and                 pos tag: CCONJ          lemma: and
+    token: hallmark            pos tag: NOUN           lemma: hallmark
+    token: has                 pos tag: VERB           lemma: have
+    token: nothing             pos tag: PRON           lemma: nothing
+    token: to                  pos tag: PART           lemma: to
+    token: do                  pos tag: VERB           lemma: do
+    token: with                pos tag: ADP            lemma: with
+    token: it                  pos tag: PRON           lemma: it
 turn 51
     sentence: Boss's day was really lame because we used to do it at my old job and no one particularly liked our boss
     token: Boss                  pos tag: PROPN          lemma: Boss
@@ -696,9 +703,11 @@ turn 63
     token: do                 pos tag: VERB          lemma: do
     token: sometimes          pos tag: ADV           lemma: sometimes
 turn 64
-    sentence: haha yeah that's nice for him
+    sentence: haha
     token: haha          pos tag: INTJ          lemma: haha
+    sentence: yeah
     token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: that's nice for him
     token: that          pos tag: PRON          lemma: that
     token: 's            pos tag: AUX           lemma: be
     token: nice          pos tag: ADJ           lemma: nice
@@ -745,17 +754,18 @@ turn 67
     token: day                  pos tag: NOUN           lemma: day
     token: ?                    pos tag: PUNCT          lemma: ?
 turn 68
-    sentence: But he pays them back on admin. assistants day
-    token: But                 pos tag: CCONJ          lemma: but
-    token: he                  pos tag: PRON           lemma: he
-    token: pays                pos tag: VERB           lemma: pay
-    token: them                pos tag: PRON           lemma: they
-    token: back                pos tag: ADV            lemma: back
-    token: on                  pos tag: ADP            lemma: on
-    token: admin               pos tag: NOUN           lemma: admin
-    token: .                   pos tag: PUNCT          lemma: .
-    token: assistants          pos tag: NOUN           lemma: assistant
-    token: day                 pos tag: NOUN           lemma: day
+    sentence: But he pays them back on admin.
+    token: But            pos tag: CCONJ          lemma: but
+    token: he             pos tag: PRON           lemma: he
+    token: pays           pos tag: VERB           lemma: pay
+    token: them           pos tag: PRON           lemma: they
+    token: back           pos tag: ADV            lemma: back
+    token: on             pos tag: ADP            lemma: on
+    token: admin          pos tag: NOUN           lemma: admin
+    token: .              pos tag: PUNCT          lemma: .
+    sentence: assistants day
+    token: assistants          pos tag: NOUN          lemma: assistant
+    token: day                 pos tag: NOUN          lemma: day
     named_entities: day        type: DATE
 turn 69
     sentence: Yes
@@ -873,14 +883,15 @@ turn 81
     token: 's                  pos tag: PART           lemma: 's
     token: day                 pos tag: NOUN           lemma: day
 turn 82
-    sentence: oh really? why's that?
+    sentence: oh really?
     token: oh              pos tag: INTJ           lemma: oh
     token: really          pos tag: ADV            lemma: really
     token: ?               pos tag: PUNCT          lemma: ?
-    token: why             pos tag: SCONJ          lemma: why
-    token: 's              pos tag: AUX            lemma: be
-    token: that            pos tag: PRON           lemma: that
-    token: ?               pos tag: PUNCT          lemma: ?
+    sentence: why's that?
+    token: why           pos tag: SCONJ          lemma: why
+    token: 's            pos tag: AUX            lemma: be
+    token: that          pos tag: PRON           lemma: that
+    token: ?             pos tag: PUNCT          lemma: ?
 turn 83
     sentence: at least that's what they tell me
     token: at             pos tag: ADP           lemma: at
@@ -914,15 +925,16 @@ turn 84
     token: my                pos tag: PRON           lemma: my
     token: opinion           pos tag: NOUN           lemma: opinion
 turn 85
-    sentence: really? I always thought it was nice
-    token: really           pos tag: ADV            lemma: really
-    token: ?                pos tag: PUNCT          lemma: ?
-    token: I                pos tag: PRON           lemma: I
-    token: always           pos tag: ADV            lemma: always
-    token: thought          pos tag: VERB           lemma: think
-    token: it               pos tag: PRON           lemma: it
-    token: was              pos tag: AUX            lemma: be
-    token: nice             pos tag: ADJ            lemma: nice
+    sentence: really?
+    token: really          pos tag: ADV            lemma: really
+    token: ?               pos tag: PUNCT          lemma: ?
+    sentence: I always thought it was nice
+    token: I                pos tag: PRON          lemma: I
+    token: always           pos tag: ADV           lemma: always
+    token: thought          pos tag: VERB          lemma: think
+    token: it               pos tag: PRON          lemma: it
+    token: was              pos tag: AUX           lemma: be
+    token: nice             pos tag: ADJ           lemma: nice
 turn 86
     sentence: I get my mom flowers every year
     token: I                pos tag: PRON          lemma: I
@@ -974,31 +986,32 @@ turn 89
     token: hallmark            pos tag: NOUN          lemma: hallmark
     token: holiday             pos tag: NOUN          lemma: holiday
 turn 90
-    sentence: that's good too--i just don't think it's a time of year to get someone like an ipod
-    token: that             pos tag: PRON           lemma: that
-    token: 's               pos tag: AUX            lemma: be
-    token: good             pos tag: ADJ            lemma: good
-    token: too              pos tag: ADV            lemma: too
-    token: --               pos tag: PUNCT          lemma: --
-    token: i                pos tag: PRON           lemma: I
-    token: just             pos tag: ADV            lemma: just
-    token: do               pos tag: AUX            lemma: do
-    token: n't              pos tag: PART           lemma: not
-    token: think            pos tag: VERB           lemma: think
-    token: it               pos tag: PRON           lemma: it
-    token: 's               pos tag: AUX            lemma: be
-    token: a                pos tag: DET            lemma: a
-    token: time             pos tag: NOUN           lemma: time
-    token: of               pos tag: ADP            lemma: of
-    token: year             pos tag: NOUN           lemma: year
-    token: to               pos tag: PART           lemma: to
-    token: get              pos tag: VERB           lemma: get
-    token: someone          pos tag: PRON           lemma: someone
-    token: like             pos tag: ADP            lemma: like
-    token: an               pos tag: DET            lemma: an
-    token: ipod             pos tag: NOUN           lemma: ipod
+    sentence: that's good too--
+    token: that          pos tag: PRON           lemma: that
+    token: 's            pos tag: AUX            lemma: be
+    token: good          pos tag: ADJ            lemma: good
+    token: too           pos tag: ADV            lemma: too
+    token: --            pos tag: PUNCT          lemma: --
+    sentence: i just don't think it's a time of year to get someone like an ipod
+    token: i                pos tag: PRON          lemma: I
+    token: just             pos tag: ADV           lemma: just
+    token: do               pos tag: AUX           lemma: do
+    token: n't              pos tag: PART          lemma: not
+    token: think            pos tag: VERB          lemma: think
+    token: it               pos tag: PRON          lemma: it
+    token: 's               pos tag: AUX           lemma: be
+    token: a                pos tag: DET           lemma: a
+    token: time             pos tag: NOUN          lemma: time
+    token: of               pos tag: ADP           lemma: of
+    token: year             pos tag: NOUN          lemma: year
+    token: to               pos tag: PART          lemma: to
+    token: get              pos tag: VERB          lemma: get
+    token: someone          pos tag: PRON          lemma: someone
+    token: like             pos tag: ADP           lemma: like
+    token: an               pos tag: DET           lemma: an
+    token: ipod             pos tag: NOUN          lemma: ipod
 turn 91
-    sentence: i think they find it kind of silly, although they really apprecaite us getting them cards, flowers, etc. I think they like the thought that we are thinking of them more than anything
+    sentence: i think they find it kind of silly, although they really apprecaite us getting them cards, flowers, etc.
     token: i                   pos tag: PRON           lemma: I
     token: think               pos tag: VERB           lemma: think
     token: they                pos tag: PRON           lemma: they
@@ -1021,21 +1034,22 @@ turn 91
     token: ,                   pos tag: PUNCT          lemma: ,
     token: etc                 pos tag: X              lemma: etc
     token: .                   pos tag: X              lemma: .
-    token: I                   pos tag: PRON           lemma: I
-    token: think               pos tag: VERB           lemma: think
-    token: they                pos tag: PRON           lemma: they
-    token: like                pos tag: VERB           lemma: like
-    token: the                 pos tag: DET            lemma: the
-    token: thought             pos tag: NOUN           lemma: thought
-    token: that                pos tag: SCONJ          lemma: that
-    token: we                  pos tag: PRON           lemma: we
-    token: are                 pos tag: AUX            lemma: be
-    token: thinking            pos tag: VERB           lemma: think
-    token: of                  pos tag: ADP            lemma: of
-    token: them                pos tag: PRON           lemma: they
-    token: more                pos tag: ADV            lemma: more
-    token: than                pos tag: ADP            lemma: than
-    token: anything            pos tag: PRON           lemma: anything
+    sentence: I think they like the thought that we are thinking of them more than anything
+    token: I                 pos tag: PRON           lemma: I
+    token: think             pos tag: VERB           lemma: think
+    token: they              pos tag: PRON           lemma: they
+    token: like              pos tag: VERB           lemma: like
+    token: the               pos tag: DET            lemma: the
+    token: thought           pos tag: NOUN           lemma: thought
+    token: that              pos tag: SCONJ          lemma: that
+    token: we                pos tag: PRON           lemma: we
+    token: are               pos tag: AUX            lemma: be
+    token: thinking          pos tag: VERB           lemma: think
+    token: of                pos tag: ADP            lemma: of
+    token: them              pos tag: PRON           lemma: they
+    token: more              pos tag: ADV            lemma: more
+    token: than              pos tag: ADP            lemma: than
+    token: anything          pos tag: PRON           lemma: anything
 turn 92
     sentence: Yeah, I agree with that
     token: Yeah           pos tag: INTJ           lemma: yeah
@@ -1087,10 +1101,11 @@ turn 95
     token: do                pos tag: VERB           lemma: do
     token: n't               pos tag: PART           lemma: not
 turn 96
-    sentence: i do an i don't
-    token: i            pos tag: PRON          lemma: I
-    token: do           pos tag: VERB          lemma: do
-    token: an           pos tag: PRON          lemma: an
+    sentence: i do an
+    token: i           pos tag: PRON          lemma: I
+    token: do          pos tag: VERB          lemma: do
+    token: an          pos tag: PRON          lemma: an
+    sentence: i don't
     token: i            pos tag: PRON          lemma: I
     token: do           pos tag: VERB          lemma: do
     token: n't          pos tag: PART          lemma: not
@@ -1148,11 +1163,12 @@ turn 102
     token: without           pos tag: ADP            lemma: without
     token: hallmark          pos tag: NOUN           lemma: hallmark
 turn 103
-    sentence: yeah i enjoy it but i think it is over the top
-    token: yeah           pos tag: INTJ           lemma: yeah
-    token: i              pos tag: PRON           lemma: I
-    token: enjoy          pos tag: VERB           lemma: enjoy
-    token: it             pos tag: PRON           lemma: it
+    sentence: yeah i enjoy it
+    token: yeah           pos tag: INTJ          lemma: yeah
+    token: i              pos tag: PRON          lemma: I
+    token: enjoy          pos tag: VERB          lemma: enjoy
+    token: it             pos tag: PRON          lemma: it
+    sentence: but i think it is over the top
     token: but            pos tag: CCONJ          lemma: but
     token: i              pos tag: PRON           lemma: I
     token: think          pos tag: VERB           lemma: think
@@ -1165,16 +1181,17 @@ turn 104
     sentence: yup
     token: yup          pos tag: INTJ          lemma: yup
 turn 105
-    sentence: yea i think hallmark blows it over the top but i think it would exist w/o the commercialization
-    token: yea                        pos tag: INTJ           lemma: yea
-    token: i                          pos tag: PRON           lemma: I
-    token: think                      pos tag: VERB           lemma: think
-    token: hallmark                   pos tag: NOUN           lemma: hallmark
-    token: blows                      pos tag: VERB           lemma: blow
-    token: it                         pos tag: PRON           lemma: it
-    token: over                       pos tag: ADP            lemma: over
-    token: the                        pos tag: DET            lemma: the
-    token: top                        pos tag: NOUN           lemma: top
+    sentence: yea i think hallmark blows it over the top
+    token: yea               pos tag: INTJ          lemma: yea
+    token: i                 pos tag: PRON          lemma: I
+    token: think             pos tag: VERB          lemma: think
+    token: hallmark          pos tag: NOUN          lemma: hallmark
+    token: blows             pos tag: VERB          lemma: blow
+    token: it                pos tag: PRON          lemma: it
+    token: over              pos tag: ADP           lemma: over
+    token: the               pos tag: DET           lemma: the
+    token: top               pos tag: NOUN          lemma: top
+    sentence: but i think it would exist w/o the commercialization
     token: but                        pos tag: CCONJ          lemma: but
     token: i                          pos tag: PRON           lemma: I
     token: think                      pos tag: VERB           lemma: think
@@ -1330,17 +1347,18 @@ turn 123
     token: hallmark          pos tag: ADJ            lemma: hallmark
     token: holiday           pos tag: NOUN           lemma: holiday
 turn 124
-    sentence: i don't think you should wait til then either but i think it's nice to designate a day to make sure you do something nice with someone etc.
-    token: i                  pos tag: PRON           lemma: I
-    token: do                 pos tag: AUX            lemma: do
-    token: n't                pos tag: PART           lemma: not
-    token: think              pos tag: VERB           lemma: think
-    token: you                pos tag: PRON           lemma: you
-    token: should             pos tag: AUX            lemma: should
-    token: wait               pos tag: VERB           lemma: wait
-    token: til                pos tag: PROPN          lemma: til
-    token: then               pos tag: ADV            lemma: then
-    token: either             pos tag: ADV            lemma: either
+    sentence: i don't think you should wait til then either
+    token: i               pos tag: PRON           lemma: I
+    token: do              pos tag: AUX            lemma: do
+    token: n't             pos tag: PART           lemma: not
+    token: think           pos tag: VERB           lemma: think
+    token: you             pos tag: PRON           lemma: you
+    token: should          pos tag: AUX            lemma: should
+    token: wait            pos tag: VERB           lemma: wait
+    token: til             pos tag: PROPN          lemma: til
+    token: then            pos tag: ADV            lemma: then
+    token: either          pos tag: ADV            lemma: either
+    sentence: but i think it's nice to designate a day to make sure you do something nice with someone etc.
     token: but                pos tag: CCONJ          lemma: but
     token: i                  pos tag: PRON           lemma: I
     token: think              pos tag: VERB           lemma: think
@@ -1414,8 +1432,9 @@ turn 127
     sentence: haha
     token: haha          pos tag: PROPN          lemma: haha
 turn 128
-    sentence: yeah but they have to
-    token: yeah          pos tag: INTJ           lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: but they have to
     token: but           pos tag: CCONJ          lemma: but
     token: they          pos tag: PRON           lemma: they
     token: have          pos tag: VERB           lemma: have
@@ -1456,17 +1475,18 @@ turn 132
     token: other               pos tag: ADJ           lemma: other
     token: day                 pos tag: NOUN          lemma: day
 turn 133
-    sentence: it is a business that employs people after all. i'm from kansas city, and hallmark is a big part of that city's economy
-    token: it                    pos tag: PRON           lemma: it
-    token: is                    pos tag: AUX            lemma: be
-    token: a                     pos tag: DET            lemma: a
-    token: business              pos tag: NOUN           lemma: business
-    token: that                  pos tag: PRON           lemma: that
-    token: employs               pos tag: VERB           lemma: employ
-    token: people                pos tag: NOUN           lemma: people
-    token: after                 pos tag: ADV            lemma: after
-    token: all                   pos tag: ADV            lemma: all
-    token: .                     pos tag: PUNCT          lemma: .
+    sentence: it is a business that employs people after all.
+    token: it                pos tag: PRON           lemma: it
+    token: is                pos tag: AUX            lemma: be
+    token: a                 pos tag: DET            lemma: a
+    token: business          pos tag: NOUN           lemma: business
+    token: that              pos tag: PRON           lemma: that
+    token: employs           pos tag: VERB           lemma: employ
+    token: people            pos tag: NOUN           lemma: people
+    token: after             pos tag: ADV            lemma: after
+    token: all               pos tag: ADV            lemma: all
+    token: .                 pos tag: PUNCT          lemma: .
+    sentence: i'm from kansas city, and hallmark is a big part of that city's economy
     token: i                     pos tag: PRON           lemma: I
     token: 'm                    pos tag: AUX            lemma: be
     token: from                  pos tag: ADP            lemma: from
@@ -1631,12 +1651,13 @@ turn 145
     sentence: interesting
     token: interesting          pos tag: ADJ          lemma: interesting
 turn 146
-    sentence: oh yeah it's fun
+    sentence: oh yeah
     token: oh            pos tag: INTJ          lemma: oh
     token: yeah          pos tag: INTJ          lemma: yeah
-    token: it            pos tag: PRON          lemma: it
-    token: 's            pos tag: AUX           lemma: be
-    token: fun           pos tag: NOUN          lemma: fun
+    sentence: it's fun
+    token: it           pos tag: PRON          lemma: it
+    token: 's           pos tag: AUX           lemma: be
+    token: fun          pos tag: NOUN          lemma: fun
 turn 147
     sentence: but i don't think you would send someone a card
     token: but              pos tag: CCONJ          lemma: but
@@ -1674,7 +1695,7 @@ turn 151
     token: me           pos tag: PRON          lemma: I
     token: too          pos tag: ADV           lemma: too
 turn 152
-    sentence: snows in chile and argentina in july. good point meg
+    sentence: snows in chile and argentina in july.
     token: snows               pos tag: NOUN           lemma: snow
     token: in                  pos tag: ADP            lemma: in
     token: chile               pos tag: PROPN          lemma: chile
@@ -1683,12 +1704,13 @@ turn 152
     token: in                  pos tag: ADP            lemma: in
     token: july                pos tag: PROPN          lemma: july
     token: .                   pos tag: PUNCT          lemma: .
-    token: good                pos tag: ADJ            lemma: good
-    token: point               pos tag: NOUN           lemma: point
-    token: meg                 pos tag: PROPN          lemma: meg
     named_entities: chile      type: GPE
     named_entities: argentina  type: GPE
     named_entities: july       type: DATE
+    sentence: good point meg
+    token: good           pos tag: ADJ            lemma: good
+    token: point          pos tag: NOUN           lemma: point
+    token: meg            pos tag: PROPN          lemma: meg
 turn 153
     sentence: because they actually have a purpose
     token: because           pos tag: SCONJ          lemma: because
@@ -1854,20 +1876,22 @@ turn 172
     token: 's            pos tag: AUX           lemma: be
     token: like          pos tag: INTJ          lemma: like
 turn 173
-    sentence: did you guys read this one? it's so corporate! link
-    token: did                pos tag: AUX            lemma: do
-    token: you                pos tag: PRON           lemma: you
-    token: guys               pos tag: NOUN           lemma: guy
-    token: read               pos tag: VERB           lemma: read
-    token: this               pos tag: DET            lemma: this
-    token: one                pos tag: NOUN           lemma: one
-    token: ?                  pos tag: PUNCT          lemma: ?
+    sentence: did you guys read this one?
+    token: did           pos tag: AUX            lemma: do
+    token: you           pos tag: PRON           lemma: you
+    token: guys          pos tag: NOUN           lemma: guy
+    token: read          pos tag: VERB           lemma: read
+    token: this          pos tag: DET            lemma: this
+    token: one           pos tag: NOUN           lemma: one
+    token: ?             pos tag: PUNCT          lemma: ?
+    sentence: it's so corporate!
     token: it                 pos tag: PRON           lemma: it
     token: 's                 pos tag: AUX            lemma: be
     token: so                 pos tag: ADV            lemma: so
     token: corporate          pos tag: ADJ            lemma: corporate
     token: !                  pos tag: PUNCT          lemma: !
-    token: link               pos tag: NOUN           lemma: link
+    sentence: link
+    token: link          pos tag: NOUN          lemma: link
 turn 174
     sentence: yea
     token: yea          pos tag: ADJ          lemma: yea
@@ -2445,8 +2469,9 @@ turn 231
     token: july               pos tag: PROPN          lemma: july
     named_entities: july      type: DATE
 turn 232
-    sentence: yeah i think it's mostly a drinking occassion
-    token: yeah               pos tag: INTJ          lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: i think it's mostly a drinking occassion
     token: i                  pos tag: PRON          lemma: I
     token: think              pos tag: VERB          lemma: think
     token: it                 pos tag: PRON          lemma: it
@@ -2883,17 +2908,18 @@ turn 284
     token: it                  pos tag: PRON           lemma: it
     token: depends             pos tag: VERB           lemma: depend
 turn 285
-    sentence: I end up keeping them for a really long time and then they just collect dust
-    token: I                pos tag: PRON           lemma: I
-    token: end              pos tag: VERB           lemma: end
-    token: up               pos tag: ADP            lemma: up
-    token: keeping          pos tag: VERB           lemma: keep
-    token: them             pos tag: PRON           lemma: they
-    token: for              pos tag: ADP            lemma: for
-    token: a                pos tag: DET            lemma: a
-    token: really           pos tag: ADV            lemma: really
-    token: long             pos tag: ADJ            lemma: long
-    token: time             pos tag: NOUN           lemma: time
+    sentence: I end up keeping them for a really long time
+    token: I                pos tag: PRON          lemma: I
+    token: end              pos tag: VERB          lemma: end
+    token: up               pos tag: ADP           lemma: up
+    token: keeping          pos tag: VERB          lemma: keep
+    token: them             pos tag: PRON          lemma: they
+    token: for              pos tag: ADP           lemma: for
+    token: a                pos tag: DET           lemma: a
+    token: really           pos tag: ADV           lemma: really
+    token: long             pos tag: ADJ           lemma: long
+    token: time             pos tag: NOUN          lemma: time
+    sentence: and then they just collect dust
     token: and              pos tag: CCONJ          lemma: and
     token: then             pos tag: ADV            lemma: then
     token: they             pos tag: PRON           lemma: they
@@ -3018,33 +3044,36 @@ turn 296
     token: them             pos tag: PRON          lemma: they
     token: useless          pos tag: ADJ           lemma: useless
 turn 297
-    sentence: i does fell weird to throw them away. specially if they have a religious image on it. it feels sacrilegous
-    token: i                    pos tag: PRON           lemma: I
-    token: does                 pos tag: AUX            lemma: do
-    token: fell                 pos tag: VERB           lemma: fall
-    token: weird                pos tag: ADJ            lemma: weird
-    token: to                   pos tag: PART           lemma: to
-    token: throw                pos tag: VERB           lemma: throw
-    token: them                 pos tag: PRON           lemma: they
-    token: away                 pos tag: ADV            lemma: away
-    token: .                    pos tag: PUNCT          lemma: .
-    token: specially            pos tag: ADV            lemma: specially
-    token: if                   pos tag: SCONJ          lemma: if
-    token: they                 pos tag: PRON           lemma: they
-    token: have                 pos tag: VERB           lemma: have
-    token: a                    pos tag: DET            lemma: a
-    token: religious            pos tag: ADJ            lemma: religious
-    token: image                pos tag: NOUN           lemma: image
-    token: on                   pos tag: ADP            lemma: on
-    token: it                   pos tag: PRON           lemma: it
-    token: .                    pos tag: PUNCT          lemma: .
-    token: it                   pos tag: PRON           lemma: it
-    token: feels                pos tag: VERB           lemma: feel
-    token: sacrilegous          pos tag: ADJ            lemma: sacrilegous
+    sentence: i does fell weird to throw them away.
+    token: i              pos tag: PRON           lemma: I
+    token: does           pos tag: AUX            lemma: do
+    token: fell           pos tag: VERB           lemma: fall
+    token: weird          pos tag: ADJ            lemma: weird
+    token: to             pos tag: PART           lemma: to
+    token: throw          pos tag: VERB           lemma: throw
+    token: them           pos tag: PRON           lemma: they
+    token: away           pos tag: ADV            lemma: away
+    token: .              pos tag: PUNCT          lemma: .
+    sentence: specially if they have a religious image on it.
+    token: specially          pos tag: ADV            lemma: specially
+    token: if                 pos tag: SCONJ          lemma: if
+    token: they               pos tag: PRON           lemma: they
+    token: have               pos tag: VERB           lemma: have
+    token: a                  pos tag: DET            lemma: a
+    token: religious          pos tag: ADJ            lemma: religious
+    token: image              pos tag: NOUN           lemma: image
+    token: on                 pos tag: ADP            lemma: on
+    token: it                 pos tag: PRON           lemma: it
+    token: .                  pos tag: PUNCT          lemma: .
+    sentence: it feels sacrilegous
+    token: it                   pos tag: PRON          lemma: it
+    token: feels                pos tag: VERB          lemma: feel
+    token: sacrilegous          pos tag: ADJ           lemma: sacrilegous
 turn 298
-    sentence: yeah cause sometimes you lose touch with people
-    token: yeah               pos tag: INTJ          lemma: yeah
-    token: cause              pos tag: NOUN          lemma: cause
+    sentence: yeah cause
+    token: yeah           pos tag: INTJ          lemma: yeah
+    token: cause          pos tag: NOUN          lemma: cause
+    sentence: sometimes you lose touch with people
     token: sometimes          pos tag: ADV           lemma: sometimes
     token: you                pos tag: PRON          lemma: you
     token: lose               pos tag: VERB          lemma: lose
@@ -3107,23 +3136,25 @@ turn 304
     token: box                pos tag: NOUN          lemma: box
     token: somewhere          pos tag: ADV           lemma: somewhere
 turn 305
-    sentence: I'm not religious so I don't think I'd keep them
+    sentence: I'm not religious
     token: I                  pos tag: PRON          lemma: I
     token: 'm                 pos tag: AUX           lemma: be
     token: not                pos tag: PART          lemma: not
     token: religious          pos tag: ADJ           lemma: religious
-    token: so                 pos tag: ADV           lemma: so
-    token: I                  pos tag: PRON          lemma: I
-    token: do                 pos tag: AUX           lemma: do
-    token: n't                pos tag: PART          lemma: not
-    token: think              pos tag: VERB          lemma: think
-    token: I                  pos tag: PRON          lemma: I
-    token: 'd                 pos tag: AUX           lemma: would
-    token: keep               pos tag: VERB          lemma: keep
-    token: them               pos tag: PRON          lemma: they
+    sentence: so I don't think I'd keep them
+    token: so             pos tag: ADV           lemma: so
+    token: I              pos tag: PRON          lemma: I
+    token: do             pos tag: AUX           lemma: do
+    token: n't            pos tag: PART          lemma: not
+    token: think          pos tag: VERB          lemma: think
+    token: I              pos tag: PRON          lemma: I
+    token: 'd             pos tag: AUX           lemma: would
+    token: keep           pos tag: VERB          lemma: keep
+    token: them           pos tag: PRON          lemma: they
 turn 306
-    sentence: yeah im sure it depends on the person
-    token: yeah             pos tag: INTJ          lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: im sure it depends on the person
     token: i                pos tag: PRON          lemma: I
     token: m                pos tag: VERB          lemma: m
     token: sure             pos tag: ADJ           lemma: sure
@@ -3133,19 +3164,21 @@ turn 306
     token: the              pos tag: DET           lemma: the
     token: person           pos tag: NOUN          lemma: person
 turn 307
-    sentence: i used to not like cards. and never bought one. until someone gave me a card that was so specific to what i was going thru, that i felt that they do help to express your feelings
-    token: i                 pos tag: PRON           lemma: I
-    token: used              pos tag: VERB           lemma: use
-    token: to                pos tag: PART           lemma: to
-    token: not               pos tag: PART           lemma: not
-    token: like              pos tag: VERB           lemma: like
-    token: cards             pos tag: NOUN           lemma: card
-    token: .                 pos tag: PUNCT          lemma: .
-    token: and               pos tag: CCONJ          lemma: and
-    token: never             pos tag: ADV            lemma: never
-    token: bought            pos tag: VERB           lemma: buy
-    token: one               pos tag: NUM            lemma: one
-    token: .                 pos tag: PUNCT          lemma: .
+    sentence: i used to not like cards.
+    token: i              pos tag: PRON           lemma: I
+    token: used           pos tag: VERB           lemma: use
+    token: to             pos tag: PART           lemma: to
+    token: not            pos tag: PART           lemma: not
+    token: like           pos tag: VERB           lemma: like
+    token: cards          pos tag: NOUN           lemma: card
+    token: .              pos tag: PUNCT          lemma: .
+    sentence: and never bought one.
+    token: and             pos tag: CCONJ          lemma: and
+    token: never           pos tag: ADV            lemma: never
+    token: bought          pos tag: VERB           lemma: buy
+    token: one             pos tag: NUM            lemma: one
+    token: .               pos tag: PUNCT          lemma: .
+    sentence: until someone gave me a card that was so specific to what i was going thru, that i felt that they do help to express your feelings
     token: until             pos tag: SCONJ          lemma: until
     token: someone           pos tag: PRON           lemma: someone
     token: gave              pos tag: VERB           lemma: give
@@ -3276,12 +3309,14 @@ turn 317
     token: the              pos tag: DET           lemma: the
     token: dilemma          pos tag: NOUN          lemma: dilemma
 turn 318
-    sentence: Hahah yeah I guess
+    sentence: Hahah
     token: Hahah           pos tag: PROPN          lemma: Hahah
-    token: yeah            pos tag: INTJ           lemma: yeah
-    token: I               pos tag: PRON           lemma: I
-    token: guess           pos tag: VERB           lemma: guess
     named_entities: Hahah  type: PERSON
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: I guess
+    token: I              pos tag: PRON          lemma: I
+    token: guess          pos tag: VERB          lemma: guess
 turn 319
     sentence: true
     token: true          pos tag: ADJ          lemma: true
@@ -3431,9 +3466,10 @@ turn 334
     token: one            pos tag: NOUN          lemma: one
     named_entities: one   type: CARDINAL
 turn 335
-    sentence: yeah, i think it could be important regionally, so christmas in july should go
-    token: yeah                pos tag: INTJ           lemma: yeah
-    token: ,                   pos tag: PUNCT          lemma: ,
+    sentence: yeah,
+    token: yeah          pos tag: INTJ           lemma: yeah
+    token: ,             pos tag: PUNCT          lemma: ,
+    sentence: i think it could be important regionally, so christmas in july should go
     token: i                   pos tag: PRON           lemma: I
     token: think               pos tag: VERB           lemma: think
     token: it                  pos tag: PRON           lemma: it
@@ -3859,12 +3895,13 @@ turn 379
     token: no          pos tag: INTJ           lemma: no
     token: !           pos tag: PUNCT          lemma: !
 turn 380
-    sentence: hahaha oh no!
+    sentence: hahaha
     token: hahaha           pos tag: PROPN          lemma: hahaha
-    token: oh               pos tag: INTJ           lemma: oh
-    token: no               pos tag: INTJ           lemma: no
-    token: !                pos tag: PUNCT          lemma: !
     named_entities: hahaha  type: PERSON
+    sentence: oh no!
+    token: oh          pos tag: INTJ           lemma: oh
+    token: no          pos tag: INTJ           lemma: no
+    token: !           pos tag: PUNCT          lemma: !
 turn 381
     sentence: what movie?
     token: what           pos tag: PRON           lemma: what
@@ -4108,12 +4145,13 @@ turn 411
     token: nice               pos tag: ADJ           lemma: nice
     token: tradition          pos tag: NOUN          lemma: tradition
 turn 412
-    sentence: what kind of flowers? anything?
-    token: what              pos tag: DET            lemma: what
-    token: kind              pos tag: NOUN           lemma: kind
-    token: of                pos tag: ADP            lemma: of
-    token: flowers           pos tag: NOUN           lemma: flower
-    token: ?                 pos tag: PUNCT          lemma: ?
+    sentence: what kind of flowers?
+    token: what             pos tag: DET            lemma: what
+    token: kind             pos tag: NOUN           lemma: kind
+    token: of               pos tag: ADP            lemma: of
+    token: flowers          pos tag: NOUN           lemma: flower
+    token: ?                pos tag: PUNCT          lemma: ?
+    sentence: anything?
     token: anything          pos tag: PRON           lemma: anything
     token: ?                 pos tag: PUNCT          lemma: ?
 turn 413
@@ -4193,14 +4231,15 @@ turn 423
     token: caviar          pos tag: ADJ            lemma: caviar
     token: *               pos tag: PUNCT          lemma: *
 turn 424
-    sentence: sturgeon one. so it is fancier
+    sentence: sturgeon one.
     token: sturgeon          pos tag: VERB           lemma: sturgeon
     token: one               pos tag: NUM            lemma: one
     token: .                 pos tag: PUNCT          lemma: .
-    token: so                pos tag: ADV            lemma: so
-    token: it                pos tag: PRON           lemma: it
-    token: is                pos tag: AUX            lemma: be
-    token: fancier           pos tag: ADJ            lemma: fancy
+    sentence: so it is fancier
+    token: so               pos tag: ADV           lemma: so
+    token: it               pos tag: PRON          lemma: it
+    token: is               pos tag: AUX           lemma: be
+    token: fancier          pos tag: ADJ           lemma: fancy
 turn 425
     sentence: I still don't want cards or flowers on valentines day though hahahaha
     token: I                   pos tag: PRON           lemma: I
@@ -4375,7 +4414,7 @@ turn 445
     token: vday               pos tag: NOUN           lemma: vday
     token: ?                  pos tag: PUNCT          lemma: ?
 turn 446
-    sentence: i got my bf a massage gift certificate for v-day rather than a card or flowers. i don't think he liked it
+    sentence: i got my bf a massage gift certificate for v-day rather than a card or flowers.
     token: i                    pos tag: PRON           lemma: I
     token: got                  pos tag: VERB           lemma: get
     token: my                   pos tag: PRON           lemma: my
@@ -4395,14 +4434,15 @@ turn 446
     token: or                   pos tag: CCONJ          lemma: or
     token: flowers              pos tag: NOUN           lemma: flower
     token: .                    pos tag: PUNCT          lemma: .
-    token: i                    pos tag: PRON           lemma: I
-    token: do                   pos tag: AUX            lemma: do
-    token: n't                  pos tag: PART           lemma: not
-    token: think                pos tag: VERB           lemma: think
-    token: he                   pos tag: PRON           lemma: he
-    token: liked                pos tag: VERB           lemma: like
-    token: it                   pos tag: PRON           lemma: it
     named_entities: v-day       type: DATE
+    sentence: i don't think he liked it
+    token: i              pos tag: PRON          lemma: I
+    token: do             pos tag: AUX           lemma: do
+    token: n't            pos tag: PART          lemma: not
+    token: think          pos tag: VERB          lemma: think
+    token: he             pos tag: PRON          lemma: he
+    token: liked          pos tag: VERB          lemma: like
+    token: it             pos tag: PRON          lemma: it
 turn 447
     sentence: hahaha
     token: hahaha           pos tag: PROPN          lemma: hahaha
@@ -4551,8 +4591,9 @@ turn 462
     token: great          pos tag: ADJ           lemma: great
     token: idea           pos tag: NOUN          lemma: idea
 turn 463
-    sentence: yeah i wish i could have thought of something creative
-    token: yeah               pos tag: INTJ          lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: i wish i could have thought of something creative
     token: i                  pos tag: PRON          lemma: I
     token: wish               pos tag: VERB          lemma: wish
     token: i                  pos tag: PRON          lemma: I
@@ -4826,12 +4867,13 @@ turn 503
     token: thise              pos tag: VERB           lemma: thise
     token: different          pos tag: ADJ            lemma: different
 turn 504
-    sentence: potato pancakes! mmm!
+    sentence: potato pancakes!
     token: potato            pos tag: PROPN          lemma: potato
     token: pancakes          pos tag: VERB           lemma: pancake
     token: !                 pos tag: PUNCT          lemma: !
-    token: mmm               pos tag: PROPN          lemma: mmm
-    token: !                 pos tag: PUNCT          lemma: !
+    sentence: mmm!
+    token: mmm          pos tag: PROPN          lemma: mmm
+    token: !            pos tag: PUNCT          lemma: !
 turn 505
     sentence: mmm potato pancakes are awesome
     token: mmm                  pos tag: PROPN          lemma: mmm
@@ -5083,13 +5125,14 @@ turn 535
     named_entities: one       type: CARDINAL
     named_entities: montreal  type: GPE
 turn 536
-    sentence: Wow, I'm late! Sorry ... bad weather in Cortland caught us. What's the weather like in Albany?
-    token: Wow                pos tag: INTJ           lemma: wow
-    token: ,                  pos tag: PUNCT          lemma: ,
-    token: I                  pos tag: PRON           lemma: I
-    token: 'm                 pos tag: AUX            lemma: be
-    token: late               pos tag: ADJ            lemma: late
-    token: !                  pos tag: PUNCT          lemma: !
+    sentence: Wow, I'm late!
+    token: Wow           pos tag: INTJ           lemma: wow
+    token: ,             pos tag: PUNCT          lemma: ,
+    token: I             pos tag: PRON           lemma: I
+    token: 'm            pos tag: AUX            lemma: be
+    token: late          pos tag: ADJ            lemma: late
+    token: !             pos tag: PUNCT          lemma: !
+    sentence: Sorry ... bad weather in Cortland caught us.
     token: Sorry              pos tag: INTJ           lemma: sorry
     token: ...                pos tag: PUNCT          lemma: ...
     token: bad                pos tag: ADJ            lemma: bad
@@ -5099,16 +5142,17 @@ turn 536
     token: caught             pos tag: VERB           lemma: catch
     token: us                 pos tag: PRON           lemma: we
     token: .                  pos tag: PUNCT          lemma: .
-    token: What               pos tag: PRON           lemma: what
-    token: 's                 pos tag: AUX            lemma: be
-    token: the                pos tag: DET            lemma: the
-    token: weather            pos tag: NOUN           lemma: weather
-    token: like               pos tag: ADP            lemma: like
-    token: in                 pos tag: ADP            lemma: in
-    token: Albany             pos tag: PROPN          lemma: Albany
-    token: ?                  pos tag: PUNCT          lemma: ?
     named_entities: Cortland  type: GPE
-    named_entities: Albany    type: GPE
+    sentence: What's the weather like in Albany?
+    token: What             pos tag: PRON           lemma: what
+    token: 's               pos tag: AUX            lemma: be
+    token: the              pos tag: DET            lemma: the
+    token: weather          pos tag: NOUN           lemma: weather
+    token: like             pos tag: ADP            lemma: like
+    token: in               pos tag: ADP            lemma: in
+    token: Albany           pos tag: PROPN          lemma: Albany
+    token: ?                pos tag: PUNCT          lemma: ?
+    named_entities: Albany  type: GPE
 turn 537
     sentence: what do you think of the musical cards?
     token: what             pos tag: PRON           lemma: what
@@ -5263,14 +5307,15 @@ turn 554
     token: cost             pos tag: NOUN           lemma: cost
     token: ?                pos tag: PUNCT          lemma: ?
 turn 555
-    sentence: In my family, growing up. we always made valentine's day card ... never bought them
-    token: In                 pos tag: ADP            lemma: in
-    token: my                 pos tag: PRON           lemma: my
-    token: family             pos tag: NOUN           lemma: family
-    token: ,                  pos tag: PUNCT          lemma: ,
-    token: growing            pos tag: VERB           lemma: grow
-    token: up                 pos tag: ADP            lemma: up
-    token: .                  pos tag: PUNCT          lemma: .
+    sentence: In my family, growing up.
+    token: In               pos tag: ADP            lemma: in
+    token: my               pos tag: PRON           lemma: my
+    token: family           pos tag: NOUN           lemma: family
+    token: ,                pos tag: PUNCT          lemma: ,
+    token: growing          pos tag: VERB           lemma: grow
+    token: up               pos tag: ADP            lemma: up
+    token: .                pos tag: PUNCT          lemma: .
+    sentence: we always made valentine's day card ... never bought them
     token: we                 pos tag: PRON           lemma: we
     token: always             pos tag: ADV            lemma: always
     token: made               pos tag: VERB           lemma: make
@@ -5303,27 +5348,28 @@ turn 558
     token: so            pos tag: ADV           lemma: so
     token: cute          pos tag: ADJ           lemma: cute
 turn 559
-    sentence: This year my four year old and I made all the cards for his pre-school class
-    token: This                    pos tag: DET            lemma: this
-    token: year                    pos tag: NOUN           lemma: year
-    token: my                      pos tag: PRON           lemma: my
-    token: four                    pos tag: NUM            lemma: four
-    token: year                    pos tag: NOUN           lemma: year
-    token: old                     pos tag: ADJ            lemma: old
-    token: and                     pos tag: CCONJ          lemma: and
-    token: I                       pos tag: PRON           lemma: I
-    token: made                    pos tag: VERB           lemma: make
-    token: all                     pos tag: DET            lemma: all
-    token: the                     pos tag: DET            lemma: the
-    token: cards                   pos tag: NOUN           lemma: card
-    token: for                     pos tag: ADP            lemma: for
-    token: his                     pos tag: PRON           lemma: his
-    token: pre                     pos tag: ADJ            lemma: pre
-    token: -                       pos tag: ADJ            lemma: -
-    token: school                  pos tag: ADJ            lemma: school
-    token: class                   pos tag: NOUN           lemma: class
+    sentence: This year my four year old
+    token: This                    pos tag: DET           lemma: this
+    token: year                    pos tag: NOUN          lemma: year
+    token: my                      pos tag: PRON          lemma: my
+    token: four                    pos tag: NUM           lemma: four
+    token: year                    pos tag: NOUN          lemma: year
+    token: old                     pos tag: ADJ           lemma: old
     named_entities: This year      type: DATE
     named_entities: four year old  type: DATE
+    sentence: and I made all the cards for his pre-school class
+    token: and             pos tag: CCONJ          lemma: and
+    token: I               pos tag: PRON           lemma: I
+    token: made            pos tag: VERB           lemma: make
+    token: all             pos tag: DET            lemma: all
+    token: the             pos tag: DET            lemma: the
+    token: cards           pos tag: NOUN           lemma: card
+    token: for             pos tag: ADP            lemma: for
+    token: his             pos tag: PRON           lemma: his
+    token: pre             pos tag: ADJ            lemma: pre
+    token: -               pos tag: ADJ            lemma: -
+    token: school          pos tag: ADJ            lemma: school
+    token: class           pos tag: NOUN           lemma: class
 turn 560
     sentence: they have one for 3 bucks at walmart
     token: they              pos tag: PRON           lemma: they
@@ -5428,17 +5474,18 @@ turn 567
     token: ?                  pos tag: PUNCT          lemma: ?
     token: "                  pos tag: PUNCT          lemma: "
 turn 568
-    sentence: E-cards are fun for b-days ... but in general I only like them for B-days or if they have photos of people you know in them
-    token: E                pos tag: NOUN           lemma: E
-    token: -                pos tag: NOUN           lemma: -
-    token: cards            pos tag: NOUN           lemma: card
-    token: are              pos tag: AUX            lemma: be
-    token: fun              pos tag: ADJ            lemma: fun
-    token: for              pos tag: ADP            lemma: for
-    token: b                pos tag: NOUN           lemma: b
-    token: -                pos tag: PUNCT          lemma: -
-    token: days             pos tag: NOUN           lemma: day
-    token: ...              pos tag: PUNCT          lemma: ...
+    sentence: E-cards are fun for b-days ...
+    token: E              pos tag: NOUN           lemma: E
+    token: -              pos tag: NOUN           lemma: -
+    token: cards          pos tag: NOUN           lemma: card
+    token: are            pos tag: AUX            lemma: be
+    token: fun            pos tag: ADJ            lemma: fun
+    token: for            pos tag: ADP            lemma: for
+    token: b              pos tag: NOUN           lemma: b
+    token: -              pos tag: PUNCT          lemma: -
+    token: days           pos tag: NOUN           lemma: day
+    token: ...            pos tag: PUNCT          lemma: ...
+    sentence: but in general I only like them for B-days or if they have photos of people you know in them
     token: but              pos tag: CCONJ          lemma: but
     token: in               pos tag: ADP            lemma: in
     token: general          pos tag: ADJ            lemma: general
@@ -5493,7 +5540,7 @@ turn 571
     token: right           pos tag: ADJ            lemma: right
     token: ?               pos tag: PUNCT          lemma: ?
 turn 572
-    sentence: My son is totally into Transformers ... so we just used stickers on cards we made
+    sentence: My son is totally into Transformers ...
     token: My                    pos tag: PRON           lemma: my
     token: son                   pos tag: NOUN           lemma: son
     token: is                    pos tag: AUX            lemma: be
@@ -5501,15 +5548,16 @@ turn 572
     token: into                  pos tag: ADP            lemma: into
     token: Transformers          pos tag: PROPN          lemma: Transformers
     token: ...                   pos tag: PUNCT          lemma: ...
-    token: so                    pos tag: ADV            lemma: so
-    token: we                    pos tag: PRON           lemma: we
-    token: just                  pos tag: ADV            lemma: just
-    token: used                  pos tag: VERB           lemma: use
-    token: stickers              pos tag: NOUN           lemma: sticker
-    token: on                    pos tag: ADP            lemma: on
-    token: cards                 pos tag: NOUN           lemma: card
-    token: we                    pos tag: PRON           lemma: we
-    token: made                  pos tag: VERB           lemma: make
+    sentence: so we just used stickers on cards we made
+    token: so                pos tag: ADV           lemma: so
+    token: we                pos tag: PRON          lemma: we
+    token: just              pos tag: ADV           lemma: just
+    token: used              pos tag: VERB          lemma: use
+    token: stickers          pos tag: NOUN          lemma: sticker
+    token: on                pos tag: ADP           lemma: on
+    token: cards             pos tag: NOUN          lemma: card
+    token: we                pos tag: PRON          lemma: we
+    token: made              pos tag: VERB          lemma: make
 turn 573
     sentence: those e-cards used to be cool
     token: those          pos tag: DET           lemma: those
@@ -5599,14 +5647,15 @@ turn 583
     token: to               pos tag: ADP            lemma: to
     token: walmart          pos tag: PROPN          lemma: walmart
 turn 584
-    sentence: all u see is hallmark i think
+    sentence: all u see is hallmark
     token: all               pos tag: DET           lemma: all
     token: u                 pos tag: PRON          lemma: u
     token: see               pos tag: VERB          lemma: see
     token: is                pos tag: AUX           lemma: be
     token: hallmark          pos tag: ADJ           lemma: hallmark
-    token: i                 pos tag: PRON          lemma: I
-    token: think             pos tag: VERB          lemma: think
+    sentence: i think
+    token: i              pos tag: PRON          lemma: I
+    token: think          pos tag: VERB          lemma: think
 turn 585
     sentence: oh, got it
     token: oh           pos tag: INTJ           lemma: oh
@@ -5633,8 +5682,9 @@ turn 588
     token: and              pos tag: CCONJ          lemma: and
     token: papyrus          pos tag: NOUN           lemma: papyrus
 turn 589
-    sentence: yeah ive gotten carlton cards before
-    token: yeah             pos tag: INTJ           lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: ive gotten carlton cards before
     token: i                pos tag: PRON           lemma: I
     token: ve               pos tag: AUX            lemma: ve
     token: gotten           pos tag: VERB           lemma: get
@@ -5669,25 +5719,28 @@ turn 591
     token: from             pos tag: ADP           lemma: from
     token: her              pos tag: PRON          lemma: she
 turn 592
-    sentence: Christmas cards get out of hand ... with two kids everyone wants a photo card from us ... and I had to send 80 this year ... 80!!!
-    token: Christmas              pos tag: PROPN          lemma: Christmas
-    token: cards                  pos tag: NOUN           lemma: card
-    token: get                    pos tag: VERB           lemma: get
-    token: out                    pos tag: ADP            lemma: out
-    token: of                     pos tag: ADP            lemma: of
-    token: hand                   pos tag: NOUN           lemma: hand
-    token: ...                    pos tag: PUNCT          lemma: ...
-    token: with                   pos tag: ADP            lemma: with
-    token: two                    pos tag: NUM            lemma: two
-    token: kids                   pos tag: NOUN           lemma: kid
-    token: everyone               pos tag: PRON           lemma: everyone
-    token: wants                  pos tag: VERB           lemma: want
-    token: a                      pos tag: DET            lemma: a
-    token: photo                  pos tag: NOUN           lemma: photo
-    token: card                   pos tag: NOUN           lemma: card
-    token: from                   pos tag: ADP            lemma: from
-    token: us                     pos tag: PRON           lemma: we
-    token: ...                    pos tag: PUNCT          lemma: ...
+    sentence: Christmas cards get out of hand ... with two kids everyone wants a photo card from us ...
+    token: Christmas           pos tag: PROPN          lemma: Christmas
+    token: cards               pos tag: NOUN           lemma: card
+    token: get                 pos tag: VERB           lemma: get
+    token: out                 pos tag: ADP            lemma: out
+    token: of                  pos tag: ADP            lemma: of
+    token: hand                pos tag: NOUN           lemma: hand
+    token: ...                 pos tag: PUNCT          lemma: ...
+    token: with                pos tag: ADP            lemma: with
+    token: two                 pos tag: NUM            lemma: two
+    token: kids                pos tag: NOUN           lemma: kid
+    token: everyone            pos tag: PRON           lemma: everyone
+    token: wants               pos tag: VERB           lemma: want
+    token: a                   pos tag: DET            lemma: a
+    token: photo               pos tag: NOUN           lemma: photo
+    token: card                pos tag: NOUN           lemma: card
+    token: from                pos tag: ADP            lemma: from
+    token: us                  pos tag: PRON           lemma: we
+    token: ...                 pos tag: PUNCT          lemma: ...
+    named_entities: Christmas  type: DATE
+    named_entities: two        type: CARDINAL
+    sentence: and I had to send 80 this year ... 80!!!
     token: and                    pos tag: CCONJ          lemma: and
     token: I                      pos tag: PRON           lemma: I
     token: had                    pos tag: VERB           lemma: have
@@ -5701,8 +5754,6 @@ turn 592
     token: !                      pos tag: PUNCT          lemma: !
     token: !                      pos tag: PUNCT          lemma: !
     token: !                      pos tag: PUNCT          lemma: !
-    named_entities: Christmas     type: DATE
-    named_entities: two           type: CARDINAL
     named_entities: 80 this year  type: DATE
     named_entities: 80            type: CARDINAL
 turn 593
@@ -6054,7 +6105,7 @@ turn 623
     token: cool            pos tag: ADJ            lemma: cool
     token: !               pos tag: PUNCT          lemma: !
 turn 624
-    sentence: You could name the characters on the templates they had and choose hair colors and stuff ... it was really fun
+    sentence: You could name the characters on the templates they had and choose hair colors and stuff ...
     token: You                 pos tag: PRON           lemma: you
     token: could               pos tag: AUX            lemma: could
     token: name                pos tag: VERB           lemma: name
@@ -6072,10 +6123,11 @@ turn 624
     token: and                 pos tag: CCONJ          lemma: and
     token: stuff               pos tag: NOUN           lemma: stuff
     token: ...                 pos tag: PUNCT          lemma: ...
-    token: it                  pos tag: PRON           lemma: it
-    token: was                 pos tag: AUX            lemma: be
-    token: really              pos tag: ADV            lemma: really
-    token: fun                 pos tag: ADJ            lemma: fun
+    sentence: it was really fun
+    token: it              pos tag: PRON          lemma: it
+    token: was             pos tag: AUX           lemma: be
+    token: really          pos tag: ADV           lemma: really
+    token: fun             pos tag: ADJ           lemma: fun
 turn 625
     sentence: aww
     token: aww          pos tag: PROPN          lemma: aww
@@ -6243,7 +6295,7 @@ turn 641
     token: leave               pos tag: VERB           lemma: leave
     token: .                   pos tag: PUNCT          lemma: .
 turn 642
-    sentence: i should learn photoshop, or flash. to make my own vivid designs
+    sentence: i should learn photoshop, or flash.
     token: i                  pos tag: PRON           lemma: I
     token: should             pos tag: AUX            lemma: should
     token: learn              pos tag: VERB           lemma: learn
@@ -6252,12 +6304,13 @@ turn 642
     token: or                 pos tag: CCONJ          lemma: or
     token: flash              pos tag: NOUN           lemma: flash
     token: .                  pos tag: PUNCT          lemma: .
-    token: to                 pos tag: PART           lemma: to
-    token: make               pos tag: VERB           lemma: make
-    token: my                 pos tag: PRON           lemma: my
-    token: own                pos tag: ADJ            lemma: own
-    token: vivid              pos tag: ADJ            lemma: vivid
-    token: designs            pos tag: NOUN           lemma: design
+    sentence: to make my own vivid designs
+    token: to               pos tag: PART          lemma: to
+    token: make             pos tag: VERB          lemma: make
+    token: my               pos tag: PRON          lemma: my
+    token: own              pos tag: ADJ           lemma: own
+    token: vivid            pos tag: ADJ           lemma: vivid
+    token: designs          pos tag: NOUN          lemma: design
 turn 643
     sentence: link
     token: link          pos tag: VERB          lemma: link
@@ -6270,7 +6323,7 @@ turn 644
     token: moderator          pos tag: NOUN           lemma: moderator
     token: .                  pos tag: PUNCT          lemma: .
 turn 645
-    sentence: thanks for an entertaining chat, everybody. glad we came to a consensus
+    sentence: thanks for an entertaining chat, everybody.
     token: thanks                pos tag: NOUN           lemma: thank
     token: for                   pos tag: ADP            lemma: for
     token: an                    pos tag: DET            lemma: an
@@ -6279,12 +6332,13 @@ turn 645
     token: ,                     pos tag: PUNCT          lemma: ,
     token: everybody             pos tag: PRON           lemma: everybody
     token: .                     pos tag: PUNCT          lemma: .
-    token: glad                  pos tag: ADJ            lemma: glad
-    token: we                    pos tag: PRON           lemma: we
-    token: came                  pos tag: VERB           lemma: come
-    token: to                    pos tag: ADP            lemma: to
-    token: a                     pos tag: DET            lemma: a
-    token: consensus             pos tag: NOUN           lemma: consensus
+    sentence: glad we came to a consensus
+    token: glad               pos tag: ADJ           lemma: glad
+    token: we                 pos tag: PRON          lemma: we
+    token: came               pos tag: VERB          lemma: come
+    token: to                 pos tag: ADP           lemma: to
+    token: a                  pos tag: DET           lemma: a
+    token: consensus          pos tag: NOUN          lemma: consensus
 turn 646
     sentence: have a good night!
     token: have                   pos tag: VERB           lemma: have
@@ -6294,10 +6348,11 @@ turn 646
     token: !                      pos tag: PUNCT          lemma: !
     named_entities: a good night  type: TIME
 turn 647
-    sentence: you too! good night!
-    token: you            pos tag: PRON           lemma: you
-    token: too            pos tag: ADV            lemma: too
-    token: !              pos tag: PUNCT          lemma: !
+    sentence: you too!
+    token: you          pos tag: PRON           lemma: you
+    token: too          pos tag: ADV            lemma: too
+    token: !            pos tag: PUNCT          lemma: !
+    sentence: good night!
     token: good           pos tag: ADJ            lemma: good
     token: night          pos tag: NOUN           lemma: night
     token: !              pos tag: PUNCT          lemma: !
@@ -6450,12 +6505,13 @@ turn 668
     sentence: link
     token: link          pos tag: VERB          lemma: link
 turn 669
-    sentence: Sorry I was late ... Look like I missed a good conversation. Bye
-    token: Sorry                 pos tag: INTJ           lemma: sorry
-    token: I                     pos tag: PRON           lemma: I
-    token: was                   pos tag: AUX            lemma: be
-    token: late                  pos tag: ADJ            lemma: late
-    token: ...                   pos tag: PUNCT          lemma: ...
+    sentence: Sorry I was late ...
+    token: Sorry          pos tag: INTJ           lemma: sorry
+    token: I              pos tag: PRON           lemma: I
+    token: was            pos tag: AUX            lemma: be
+    token: late           pos tag: ADJ            lemma: late
+    token: ...            pos tag: PUNCT          lemma: ...
+    sentence: Look like I missed a good conversation.
     token: Look                  pos tag: VERB           lemma: look
     token: like                  pos tag: SCONJ          lemma: like
     token: I                     pos tag: PRON           lemma: I
@@ -6464,4 +6520,5 @@ turn 669
     token: good                  pos tag: ADJ            lemma: good
     token: conversation          pos tag: NOUN           lemma: conversation
     token: .                     pos tag: PUNCT          lemma: .
-    token: Bye                   pos tag: PROPN          lemma: Bye
+    sentence: Bye
+    token: Bye          pos tag: PROPN          lemma: Bye

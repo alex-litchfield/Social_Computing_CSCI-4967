@@ -17,49 +17,52 @@ def getConversationOutput(readFile, writeFile):
         line = line[1]
         line = line.replace("\n", "")
         doc = nlp(line)
-        write_f.write("turn "+str(counter)+"\n    sentence: "+line+"\n")
+        write_f.write("turn "+str(counter)+"\n")
+        assert doc.has_annotation("SENT_START")
+        for sent in doc.sents:
+            write_f.write("    sentence: "+sent.text+"\n")
 
-        output_col1 = []
-        output_col2 = []
-        output_col3 = []
+            output_col1 = []
+            output_col2 = []
+            output_col3 = []
 
-        for token in doc:
-            output_col1.append("    token: "+token.text+10*" ")
-            output_col2.append("pos tag: "+token.pos_+10*" ")
-            output_col3.append("lemma: "+token.lemma_+"\n")
+            for token in sent:
+                output_col1.append("    token: "+token.text+10*" ")
+                output_col2.append("pos tag: "+token.pos_+10*" ")
+                output_col3.append("lemma: "+token.lemma_+"\n")
 
-        for ent in doc.ents:
-            output_col1.append("    named_entities: "+ent.text+"  ")
-            output_col2.append("type: "+ent.label_+"\n")
+            for ent in sent.ents:
+                output_col1.append("    named_entities: "+ent.text+"  ")
+                output_col2.append("type: "+ent.label_+"\n")
 
-        max_length_col1 = len(max(output_col1, key=len))
-        max_length_col2 = len(max(output_col2, key=len))
+            max_length_col1 = len(max(output_col1, key=len))
+            max_length_col2 = len(max(output_col2, key=len))
 
-        for i in range(len(output_col1)):
-            if len(output_col1[i]) < max_length_col1:
-                output_col1[i] = output_col1[i]+(" "*(max_length_col1-len(output_col1[i])))
+            for i in range(len(output_col1)):
+                if len(output_col1[i]) < max_length_col1:
+                    output_col1[i] = output_col1[i]+(" "*(max_length_col1-len(output_col1[i])))
 
-        for j in range(len(output_col2)):
-            if len(output_col2[j]) < max_length_col2:
-                output_col2[j] = output_col2[j]+(" "*(max_length_col2-len(output_col2[j])))
-        
-        curr_speaker_pron_counter = 0
-        for item in range(len(output_col1)):
-            output = output_col1[item] + output_col2[item]
-            if item <= len(output_col3)-1:
-                output = output + output_col3[item]
+            for j in range(len(output_col2)):
+                if len(output_col2[j]) < max_length_col2:
+                    output_col2[j] = output_col2[j]+(" "*(max_length_col2-len(output_col2[j])))
+            
+            curr_speaker_pron_counter = 0
+            for item in range(len(output_col1)):
+                output = output_col1[item] + output_col2[item]
+                if item <= len(output_col3)-1:
+                    output = output + output_col3[item]
+                else:
+                    output = output.rstrip() + "\n"
+
+                if "PRON" in output_col2[item]:
+                    curr_speaker_pron_counter = curr_speaker_pron_counter + 1
+
+                write_f.write(output)
+            
+            if speaker in speaker_pronoun_usage:
+                speaker_pronoun_usage[speaker] = speaker_pronoun_usage[speaker] + curr_speaker_pron_counter
             else:
-                output = output.rstrip() + "\n"
-
-            if "PRON" in output_col2[item]:
-                curr_speaker_pron_counter = curr_speaker_pron_counter + 1
-
-            write_f.write(output)
-        
-        if speaker in speaker_pronoun_usage:
-            speaker_pronoun_usage[speaker] = speaker_pronoun_usage[speaker] + curr_speaker_pron_counter
-        else:
-            speaker_pronoun_usage[speaker] = curr_speaker_pron_counter
+                speaker_pronoun_usage[speaker] = curr_speaker_pron_counter
     
     read_f.close()
     write_f.close()

@@ -24,7 +24,7 @@ turn 6
     token: else             pos tag: ADV            lemma: else
     token: ?                pos tag: PUNCT          lemma: ?
 turn 7
-    sentence: Hi all, this is moderator. david is supposed to lead today.
+    sentence: Hi all, this is moderator.
     token: Hi                 pos tag: INTJ           lemma: hi
     token: all                pos tag: PRON           lemma: all
     token: ,                  pos tag: PUNCT          lemma: ,
@@ -32,15 +32,16 @@ turn 7
     token: is                 pos tag: AUX            lemma: be
     token: moderator          pos tag: NOUN           lemma: moderator
     token: .                  pos tag: PUNCT          lemma: .
-    token: david              pos tag: PROPN          lemma: david
-    token: is                 pos tag: AUX            lemma: be
-    token: supposed           pos tag: VERB           lemma: suppose
-    token: to                 pos tag: PART           lemma: to
-    token: lead               pos tag: VERB           lemma: lead
-    token: today              pos tag: NOUN           lemma: today
-    token: .                  pos tag: PUNCT          lemma: .
-    named_entities: david     type: PERSON
-    named_entities: today     type: DATE
+    sentence: david is supposed to lead today.
+    token: david             pos tag: PROPN          lemma: david
+    token: is                pos tag: AUX            lemma: be
+    token: supposed          pos tag: VERB           lemma: suppose
+    token: to                pos tag: PART           lemma: to
+    token: lead              pos tag: VERB           lemma: lead
+    token: today             pos tag: NOUN           lemma: today
+    token: .                 pos tag: PUNCT          lemma: .
+    named_entities: david    type: PERSON
+    named_entities: today    type: DATE
 turn 8
     sentence: I request you to wait a few moments.
     token: I                       pos tag: PRON           lemma: I
@@ -71,52 +72,55 @@ turn 11
     token: is              pos tag: AUX            lemma: be
     token: ?               pos tag: PUNCT          lemma: ?
 turn 12
-    sentence: Today's topic will be discuss the declining presence of males in the hard sciences and in professional schools like law and medicine. All fields except business, computer science and engineering are female domidavidd - are there any solutions to this problem? Or is this a problem facing the United States, regardless of gender of students.
-    token: Today                       pos tag: NOUN           lemma: today
-    token: 's                          pos tag: PART           lemma: 's
-    token: topic                       pos tag: NOUN           lemma: topic
-    token: will                        pos tag: AUX            lemma: will
-    token: be                          pos tag: AUX            lemma: be
-    token: discuss                     pos tag: VERB           lemma: discuss
-    token: the                         pos tag: DET            lemma: the
-    token: declining                   pos tag: VERB           lemma: decline
-    token: presence                    pos tag: NOUN           lemma: presence
-    token: of                          pos tag: ADP            lemma: of
-    token: males                       pos tag: NOUN           lemma: male
-    token: in                          pos tag: ADP            lemma: in
-    token: the                         pos tag: DET            lemma: the
-    token: hard                        pos tag: ADJ            lemma: hard
-    token: sciences                    pos tag: NOUN           lemma: science
-    token: and                         pos tag: CCONJ          lemma: and
-    token: in                          pos tag: ADP            lemma: in
-    token: professional                pos tag: ADJ            lemma: professional
-    token: schools                     pos tag: NOUN           lemma: school
-    token: like                        pos tag: ADP            lemma: like
-    token: law                         pos tag: NOUN           lemma: law
-    token: and                         pos tag: CCONJ          lemma: and
-    token: medicine                    pos tag: NOUN           lemma: medicine
-    token: .                           pos tag: PUNCT          lemma: .
-    token: All                         pos tag: DET            lemma: all
-    token: fields                      pos tag: NOUN           lemma: field
-    token: except                      pos tag: SCONJ          lemma: except
-    token: business                    pos tag: NOUN           lemma: business
-    token: ,                           pos tag: PUNCT          lemma: ,
-    token: computer                    pos tag: NOUN           lemma: computer
-    token: science                     pos tag: NOUN           lemma: science
-    token: and                         pos tag: CCONJ          lemma: and
-    token: engineering                 pos tag: NOUN           lemma: engineering
-    token: are                         pos tag: AUX            lemma: be
-    token: female                      pos tag: ADJ            lemma: female
-    token: domidavidd                  pos tag: NOUN           lemma: domidavidd
-    token: -                           pos tag: PUNCT          lemma: -
-    token: are                         pos tag: AUX            lemma: be
-    token: there                       pos tag: PRON           lemma: there
-    token: any                         pos tag: DET            lemma: any
-    token: solutions                   pos tag: NOUN           lemma: solution
-    token: to                          pos tag: ADP            lemma: to
-    token: this                        pos tag: DET            lemma: this
-    token: problem                     pos tag: NOUN           lemma: problem
-    token: ?                           pos tag: PUNCT          lemma: ?
+    sentence: Today's topic will be discuss the declining presence of males in the hard sciences and in professional schools like law and medicine.
+    token: Today                 pos tag: NOUN           lemma: today
+    token: 's                    pos tag: PART           lemma: 's
+    token: topic                 pos tag: NOUN           lemma: topic
+    token: will                  pos tag: AUX            lemma: will
+    token: be                    pos tag: AUX            lemma: be
+    token: discuss               pos tag: VERB           lemma: discuss
+    token: the                   pos tag: DET            lemma: the
+    token: declining             pos tag: VERB           lemma: decline
+    token: presence              pos tag: NOUN           lemma: presence
+    token: of                    pos tag: ADP            lemma: of
+    token: males                 pos tag: NOUN           lemma: male
+    token: in                    pos tag: ADP            lemma: in
+    token: the                   pos tag: DET            lemma: the
+    token: hard                  pos tag: ADJ            lemma: hard
+    token: sciences              pos tag: NOUN           lemma: science
+    token: and                   pos tag: CCONJ          lemma: and
+    token: in                    pos tag: ADP            lemma: in
+    token: professional          pos tag: ADJ            lemma: professional
+    token: schools               pos tag: NOUN           lemma: school
+    token: like                  pos tag: ADP            lemma: like
+    token: law                   pos tag: NOUN           lemma: law
+    token: and                   pos tag: CCONJ          lemma: and
+    token: medicine              pos tag: NOUN           lemma: medicine
+    token: .                     pos tag: PUNCT          lemma: .
+    named_entities: Today        type: DATE
+    sentence: All fields except business, computer science and engineering are female domidavidd - are there any solutions to this problem?
+    token: All                  pos tag: DET            lemma: all
+    token: fields               pos tag: NOUN           lemma: field
+    token: except               pos tag: SCONJ          lemma: except
+    token: business             pos tag: NOUN           lemma: business
+    token: ,                    pos tag: PUNCT          lemma: ,
+    token: computer             pos tag: NOUN           lemma: computer
+    token: science              pos tag: NOUN           lemma: science
+    token: and                  pos tag: CCONJ          lemma: and
+    token: engineering          pos tag: NOUN           lemma: engineering
+    token: are                  pos tag: AUX            lemma: be
+    token: female               pos tag: ADJ            lemma: female
+    token: domidavidd           pos tag: NOUN           lemma: domidavidd
+    token: -                    pos tag: PUNCT          lemma: -
+    token: are                  pos tag: AUX            lemma: be
+    token: there                pos tag: PRON           lemma: there
+    token: any                  pos tag: DET            lemma: any
+    token: solutions            pos tag: NOUN           lemma: solution
+    token: to                   pos tag: ADP            lemma: to
+    token: this                 pos tag: DET            lemma: this
+    token: problem              pos tag: NOUN           lemma: problem
+    token: ?                    pos tag: PUNCT          lemma: ?
+    sentence: Or is this a problem facing the United States, regardless of gender of students.
     token: Or                          pos tag: CCONJ          lemma: or
     token: is                          pos tag: AUX            lemma: be
     token: this                        pos tag: PRON           lemma: this
@@ -133,7 +137,6 @@ turn 12
     token: of                          pos tag: ADP            lemma: of
     token: students                    pos tag: NOUN           lemma: student
     token: .                           pos tag: PUNCT          lemma: .
-    named_entities: Today              type: DATE
     named_entities: the United States  type: GPE
 turn 13
     sentence: we are waiting for david
@@ -186,17 +189,19 @@ turn 20
     token: same          pos tag: ADJ          lemma: same
     token: here          pos tag: ADV          lemma: here
 turn 21
-    sentence: Hello again. I suppose you can begin now. Please make sure that you reach a consensus at the end.
-    token: Hello              pos tag: INTJ           lemma: hello
-    token: again              pos tag: ADV            lemma: again
-    token: .                  pos tag: PUNCT          lemma: .
-    token: I                  pos tag: PRON           lemma: I
-    token: suppose            pos tag: VERB           lemma: suppose
-    token: you                pos tag: PRON           lemma: you
-    token: can                pos tag: AUX            lemma: can
-    token: begin              pos tag: VERB           lemma: begin
-    token: now                pos tag: ADV            lemma: now
-    token: .                  pos tag: PUNCT          lemma: .
+    sentence: Hello again.
+    token: Hello          pos tag: INTJ           lemma: hello
+    token: again          pos tag: ADV            lemma: again
+    token: .              pos tag: PUNCT          lemma: .
+    sentence: I suppose you can begin now.
+    token: I                pos tag: PRON           lemma: I
+    token: suppose          pos tag: VERB           lemma: suppose
+    token: you              pos tag: PRON           lemma: you
+    token: can              pos tag: AUX            lemma: can
+    token: begin            pos tag: VERB           lemma: begin
+    token: now              pos tag: ADV            lemma: now
+    token: .                pos tag: PUNCT          lemma: .
+    sentence: Please make sure that you reach a consensus at the end.
     token: Please             pos tag: INTJ           lemma: please
     token: make               pos tag: VERB           lemma: make
     token: sure               pos tag: ADJ            lemma: sure
@@ -610,9 +615,10 @@ turn 48
     named_entities: 57%       type: PERCENT
     named_entities: LA        type: GPE
 turn 49
-    sentence: okay - so how do we remedy that situation
-    token: okay               pos tag: INTJ           lemma: okay
-    token: -                  pos tag: PUNCT          lemma: -
+    sentence: okay -
+    token: okay          pos tag: INTJ           lemma: okay
+    token: -             pos tag: PUNCT          lemma: -
+    sentence: so how do we remedy that situation
     token: so                 pos tag: ADV            lemma: so
     token: how                pos tag: SCONJ          lemma: how
     token: do                 pos tag: AUX            lemma: do
@@ -750,7 +756,7 @@ turn 55
     token: men                  pos tag: NOUN           lemma: man
     token: ?                    pos tag: PUNCT          lemma: ?
 turn 56
-    sentence: can there be incentives for men really? I don not believe that would make to many people happy
+    sentence: can there be incentives for men really?
     token: can                 pos tag: AUX            lemma: can
     token: there               pos tag: PRON           lemma: there
     token: be                  pos tag: AUX            lemma: be
@@ -759,17 +765,18 @@ turn 56
     token: men                 pos tag: NOUN           lemma: man
     token: really              pos tag: ADV            lemma: really
     token: ?                   pos tag: PUNCT          lemma: ?
-    token: I                   pos tag: PRON           lemma: I
-    token: don                 pos tag: AUX            lemma: don
-    token: not                 pos tag: PART           lemma: not
-    token: believe             pos tag: VERB           lemma: believe
-    token: that                pos tag: PRON           lemma: that
-    token: would               pos tag: AUX            lemma: would
-    token: make                pos tag: VERB           lemma: make
-    token: to                  pos tag: ADP            lemma: to
-    token: many                pos tag: ADJ            lemma: many
-    token: people              pos tag: NOUN           lemma: people
-    token: happy               pos tag: ADJ            lemma: happy
+    sentence: I don not believe that would make to many people happy
+    token: I                pos tag: PRON          lemma: I
+    token: don              pos tag: AUX           lemma: don
+    token: not              pos tag: PART          lemma: not
+    token: believe          pos tag: VERB          lemma: believe
+    token: that             pos tag: PRON          lemma: that
+    token: would            pos tag: AUX           lemma: would
+    token: make             pos tag: VERB          lemma: make
+    token: to               pos tag: ADP           lemma: to
+    token: many             pos tag: ADJ           lemma: many
+    token: people           pos tag: NOUN          lemma: people
+    token: happy            pos tag: ADJ           lemma: happy
 turn 57
     sentence: i agree with rick
     token: i              pos tag: PRON          lemma: I
@@ -1083,7 +1090,7 @@ turn 74
     token: link            pos tag: NOUN           lemma: link
     named_entities: david  type: PERSON
 turn 75
-    sentence: "In recent years, several college leaders have admitted that their institutions give a boost to male applicants to maintain gender balance on campus. Most students of either sex, they point out, prefer such balance. If Vassar accepted equal percentages of each sex, women would outnumber men by more than 2 to 1."
+    sentence: "In recent years, several college leaders have admitted that their institutions give a boost to male applicants to maintain gender balance on campus.
     token: "                      pos tag: PUNCT          lemma: "
     token: In                     pos tag: ADP            lemma: in
     token: recent                 pos tag: ADJ            lemma: recent
@@ -1110,46 +1117,48 @@ turn 75
     token: on                     pos tag: ADP            lemma: on
     token: campus                 pos tag: NOUN           lemma: campus
     token: .                      pos tag: PUNCT          lemma: .
-    token: Most                   pos tag: ADJ            lemma: Most
-    token: students               pos tag: NOUN           lemma: student
-    token: of                     pos tag: ADP            lemma: of
-    token: either                 pos tag: DET            lemma: either
-    token: sex                    pos tag: NOUN           lemma: sex
-    token: ,                      pos tag: PUNCT          lemma: ,
-    token: they                   pos tag: PRON           lemma: they
-    token: point                  pos tag: VERB           lemma: point
-    token: out                    pos tag: ADP            lemma: out
-    token: ,                      pos tag: PUNCT          lemma: ,
-    token: prefer                 pos tag: VERB           lemma: prefer
-    token: such                   pos tag: ADJ            lemma: such
-    token: balance                pos tag: NOUN           lemma: balance
-    token: .                      pos tag: PUNCT          lemma: .
-    token: If                     pos tag: SCONJ          lemma: if
-    token: Vassar                 pos tag: PROPN          lemma: Vassar
-    token: accepted               pos tag: VERB           lemma: accept
-    token: equal                  pos tag: ADJ            lemma: equal
-    token: percentages            pos tag: NOUN           lemma: percentage
-    token: of                     pos tag: ADP            lemma: of
-    token: each                   pos tag: DET            lemma: each
-    token: sex                    pos tag: NOUN           lemma: sex
-    token: ,                      pos tag: PUNCT          lemma: ,
-    token: women                  pos tag: NOUN           lemma: woman
-    token: would                  pos tag: AUX            lemma: would
-    token: outnumber              pos tag: VERB           lemma: outnumber
-    token: men                    pos tag: NOUN           lemma: man
-    token: by                     pos tag: ADP            lemma: by
-    token: more                   pos tag: ADJ            lemma: more
-    token: than                   pos tag: ADP            lemma: than
-    token: 2                      pos tag: NUM            lemma: 2
-    token: to                     pos tag: PART           lemma: to
-    token: 1                      pos tag: NUM            lemma: 1
-    token: .                      pos tag: PUNCT          lemma: .
-    token: "                      pos tag: PUNCT          lemma: "
     named_entities: recent years  type: DATE
-    named_entities: more than 2   type: CARDINAL
-    named_entities: 1             type: CARDINAL
+    sentence: Most students of either sex, they point out, prefer such balance.
+    token: Most              pos tag: ADJ            lemma: Most
+    token: students          pos tag: NOUN           lemma: student
+    token: of                pos tag: ADP            lemma: of
+    token: either            pos tag: DET            lemma: either
+    token: sex               pos tag: NOUN           lemma: sex
+    token: ,                 pos tag: PUNCT          lemma: ,
+    token: they              pos tag: PRON           lemma: they
+    token: point             pos tag: VERB           lemma: point
+    token: out               pos tag: ADP            lemma: out
+    token: ,                 pos tag: PUNCT          lemma: ,
+    token: prefer            pos tag: VERB           lemma: prefer
+    token: such              pos tag: ADJ            lemma: such
+    token: balance           pos tag: NOUN           lemma: balance
+    token: .                 pos tag: PUNCT          lemma: .
+    sentence: If Vassar accepted equal percentages of each sex, women would outnumber men by more than 2 to 1."
+    token: If                    pos tag: SCONJ          lemma: if
+    token: Vassar                pos tag: PROPN          lemma: Vassar
+    token: accepted              pos tag: VERB           lemma: accept
+    token: equal                 pos tag: ADJ            lemma: equal
+    token: percentages           pos tag: NOUN           lemma: percentage
+    token: of                    pos tag: ADP            lemma: of
+    token: each                  pos tag: DET            lemma: each
+    token: sex                   pos tag: NOUN           lemma: sex
+    token: ,                     pos tag: PUNCT          lemma: ,
+    token: women                 pos tag: NOUN           lemma: woman
+    token: would                 pos tag: AUX            lemma: would
+    token: outnumber             pos tag: VERB           lemma: outnumber
+    token: men                   pos tag: NOUN           lemma: man
+    token: by                    pos tag: ADP            lemma: by
+    token: more                  pos tag: ADJ            lemma: more
+    token: than                  pos tag: ADP            lemma: than
+    token: 2                     pos tag: NUM            lemma: 2
+    token: to                    pos tag: PART           lemma: to
+    token: 1                     pos tag: NUM            lemma: 1
+    token: .                     pos tag: PUNCT          lemma: .
+    token: "                     pos tag: PUNCT          lemma: "
+    named_entities: more than 2  type: CARDINAL
+    named_entities: 1            type: CARDINAL
 turn 76
-    sentence: i believe this is just an intial spike, soon the ratio between men and women in these fields will even out
+    sentence: i believe this is just an intial spike, soon the ratio between men and women in these fields
     token: i                pos tag: PRON           lemma: I
     token: believe          pos tag: VERB           lemma: believe
     token: this             pos tag: PRON           lemma: this
@@ -1169,9 +1178,10 @@ turn 76
     token: in               pos tag: ADP            lemma: in
     token: these            pos tag: DET            lemma: these
     token: fields           pos tag: NOUN           lemma: field
-    token: will             pos tag: AUX            lemma: will
-    token: even             pos tag: ADV            lemma: even
-    token: out              pos tag: ADV            lemma: out
+    sentence: will even out
+    token: will          pos tag: AUX          lemma: will
+    token: even          pos tag: ADV          lemma: even
+    token: out           pos tag: ADV          lemma: out
 turn 77
     sentence: I think that incentives can work at any age
     token: I                   pos tag: PRON           lemma: I
@@ -1424,7 +1434,7 @@ turn 94
     token: you            pos tag: PRON           lemma: you
     token: wish           pos tag: VERB           lemma: wish
 turn 95
-    sentence: this is from your article: "There may be no one reason -- or solution. But figuring out ways to help boys achieve in school is a better response to the gender gap than making it easier for them to get into college later."
+    sentence: this is from your article: "There may be no one reason -- or solution.
     token: this              pos tag: PRON           lemma: this
     token: is                pos tag: AUX            lemma: be
     token: from              pos tag: ADP            lemma: from
@@ -1442,6 +1452,7 @@ turn 95
     token: or                pos tag: CCONJ          lemma: or
     token: solution          pos tag: NOUN           lemma: solution
     token: .                 pos tag: PUNCT          lemma: .
+    sentence: But figuring out ways to help boys achieve in school is a better response to the gender gap than making it easier for them to get into college later."
     token: But               pos tag: CCONJ          lemma: but
     token: figuring          pos tag: VERB           lemma: figure
     token: out               pos tag: ADP            lemma: out
@@ -1552,19 +1563,21 @@ turn 104
     token: not            pos tag: PART          lemma: not
     token: women          pos tag: NOUN          lemma: woman
 turn 105
-    sentence: right - well how many of us our CEOs at GE? -- thats a tiny minority of the population
-    token: right               pos tag: INTJ           lemma: right
-    token: -                   pos tag: PUNCT          lemma: -
-    token: well                pos tag: INTJ           lemma: well
-    token: how                 pos tag: SCONJ          lemma: how
-    token: many                pos tag: ADJ            lemma: many
-    token: of                  pos tag: ADP            lemma: of
-    token: us                  pos tag: PRON           lemma: we
-    token: our                 pos tag: PRON           lemma: our
-    token: CEOs                pos tag: NOUN           lemma: ceo
-    token: at                  pos tag: ADP            lemma: at
-    token: GE                  pos tag: PROPN          lemma: GE
-    token: ?                   pos tag: PUNCT          lemma: ?
+    sentence: right - well how many of us our CEOs at GE?
+    token: right          pos tag: INTJ           lemma: right
+    token: -              pos tag: PUNCT          lemma: -
+    token: well           pos tag: INTJ           lemma: well
+    token: how            pos tag: SCONJ          lemma: how
+    token: many           pos tag: ADJ            lemma: many
+    token: of             pos tag: ADP            lemma: of
+    token: us             pos tag: PRON           lemma: we
+    token: our            pos tag: PRON           lemma: our
+    token: CEOs           pos tag: NOUN           lemma: ceo
+    token: at             pos tag: ADP            lemma: at
+    token: GE             pos tag: PROPN          lemma: GE
+    token: ?              pos tag: PUNCT          lemma: ?
+    named_entities: GE    type: ORG
+    sentence: -- thats a tiny minority of the population
     token: --                  pos tag: PUNCT          lemma: --
     token: that                pos tag: PRON           lemma: that
     token: s                   pos tag: VERB           lemma: s
@@ -1574,7 +1587,6 @@ turn 105
     token: of                  pos tag: ADP            lemma: of
     token: the                 pos tag: DET            lemma: the
     token: population          pos tag: NOUN           lemma: population
-    named_entities: GE         type: ORG
 turn 106
     sentence: for middle class jobs like doctors and lawyers, its all women in the last ten years
     token: for                          pos tag: ADP            lemma: for
@@ -1596,20 +1608,21 @@ turn 106
     token: years                        pos tag: NOUN           lemma: year
     named_entities: the last ten years  type: DATE
 turn 107
-    sentence: do you know how many doctors and lawyers there are ? countless millions
-    token: do                 pos tag: AUX            lemma: do
-    token: you                pos tag: PRON           lemma: you
-    token: know               pos tag: VERB           lemma: know
-    token: how                pos tag: SCONJ          lemma: how
-    token: many               pos tag: ADJ            lemma: many
-    token: doctors            pos tag: NOUN           lemma: doctor
-    token: and                pos tag: CCONJ          lemma: and
-    token: lawyers            pos tag: NOUN           lemma: lawyer
-    token: there              pos tag: PRON           lemma: there
-    token: are                pos tag: VERB           lemma: be
-    token: ?                  pos tag: PUNCT          lemma: ?
-    token: countless          pos tag: ADJ            lemma: countless
-    token: millions           pos tag: NOUN           lemma: million
+    sentence: do you know how many doctors and lawyers there are ?
+    token: do               pos tag: AUX            lemma: do
+    token: you              pos tag: PRON           lemma: you
+    token: know             pos tag: VERB           lemma: know
+    token: how              pos tag: SCONJ          lemma: how
+    token: many             pos tag: ADJ            lemma: many
+    token: doctors          pos tag: NOUN           lemma: doctor
+    token: and              pos tag: CCONJ          lemma: and
+    token: lawyers          pos tag: NOUN           lemma: lawyer
+    token: there            pos tag: PRON           lemma: there
+    token: are              pos tag: VERB           lemma: be
+    token: ?                pos tag: PUNCT          lemma: ?
+    sentence: countless millions
+    token: countless          pos tag: ADJ           lemma: countless
+    token: millions           pos tag: NOUN          lemma: million
     named_entities: millions  type: CARDINAL
 turn 108
     sentence: and when it comes to wages when comparing men and women with the same degrees men are paid more
@@ -1633,7 +1646,7 @@ turn 108
     token: paid               pos tag: VERB           lemma: pay
     token: more               pos tag: ADJ            lemma: more
 turn 109
-    sentence: How many CEOs are there, how many people do you know who are CEOs and earn 30 million a year? not many
+    sentence: How many CEOs are there, how many people do you know who are CEOs and earn 30 million a year?
     token: How                  pos tag: SCONJ          lemma: how
     token: many                 pos tag: ADJ            lemma: many
     token: CEOs                 pos tag: NOUN           lemma: ceo
@@ -1656,9 +1669,10 @@ turn 109
     token: a                    pos tag: DET            lemma: a
     token: year                 pos tag: NOUN           lemma: year
     token: ?                    pos tag: PUNCT          lemma: ?
-    token: not                  pos tag: PART           lemma: not
-    token: many                 pos tag: ADJ            lemma: many
     named_entities: 30 million  type: CARDINAL
+    sentence: not many
+    token: not           pos tag: PART          lemma: not
+    token: many          pos tag: ADJ           lemma: many
 turn 110
     sentence: there are also so many jobs that women don't have, so?
     token: there          pos tag: PRON           lemma: there
@@ -1992,13 +2006,15 @@ turn 131
     token: exploration          pos tag: NOUN          lemma: exploration
     token: days                 pos tag: NOUN          lemma: day
 turn 132
-    sentence: good idea rick- i like it
-    token: good           pos tag: ADJ           lemma: good
-    token: idea           pos tag: NOUN          lemma: idea
+    sentence: good idea
+    token: good          pos tag: ADJ           lemma: good
+    token: idea          pos tag: NOUN          lemma: idea
+    sentence: rick-
     token: rick-          pos tag: INTJ          lemma: rick-
-    token: i              pos tag: PRON          lemma: I
-    token: like           pos tag: VERB          lemma: like
-    token: it             pos tag: PRON          lemma: it
+    sentence: i like it
+    token: i             pos tag: PRON          lemma: I
+    token: like          pos tag: VERB          lemma: like
+    token: it            pos tag: PRON          lemma: it
 turn 133
     sentence: or learning units
     token: or                pos tag: CCONJ          lemma: or
@@ -2058,22 +2074,23 @@ turn 136
     token: about               pos tag: ADP            lemma: about
     token: income              pos tag: NOUN           lemma: income
 turn 137
-    sentence: workshops geared toward parents leah? or helping parents to help their children learn?
+    sentence: workshops geared toward parents leah?
     token: workshops          pos tag: NOUN           lemma: workshop
     token: geared             pos tag: VERB           lemma: gear
     token: toward             pos tag: ADP            lemma: toward
     token: parents            pos tag: NOUN           lemma: parent
     token: leah               pos tag: ADJ            lemma: leah
     token: ?                  pos tag: PUNCT          lemma: ?
-    token: or                 pos tag: CCONJ          lemma: or
-    token: helping            pos tag: VERB           lemma: help
-    token: parents            pos tag: NOUN           lemma: parent
-    token: to                 pos tag: PART           lemma: to
-    token: help               pos tag: VERB           lemma: help
-    token: their              pos tag: PRON           lemma: their
-    token: children           pos tag: NOUN           lemma: child
-    token: learn              pos tag: VERB           lemma: learn
-    token: ?                  pos tag: PUNCT          lemma: ?
+    sentence: or helping parents to help their children learn?
+    token: or                pos tag: CCONJ          lemma: or
+    token: helping           pos tag: VERB           lemma: help
+    token: parents           pos tag: NOUN           lemma: parent
+    token: to                pos tag: PART           lemma: to
+    token: help              pos tag: VERB           lemma: help
+    token: their             pos tag: PRON           lemma: their
+    token: children          pos tag: NOUN           lemma: child
+    token: learn             pos tag: VERB           lemma: learn
+    token: ?                 pos tag: PUNCT          lemma: ?
 turn 138
     sentence: also -women have an ability to ascend the social structure that men do not
     token: also               pos tag: ADV            lemma: also
@@ -2420,8 +2437,9 @@ turn 160
     token: good                 pos tag: ADJ            lemma: good
     token: idea                 pos tag: NOUN           lemma: idea
 turn 161
-    sentence: yeah but you said a man cannot marry a woman who earns more money than him
-    token: yeah           pos tag: INTJ           lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: but you said a man cannot marry a woman who earns more money than him
     token: but            pos tag: CCONJ          lemma: but
     token: you            pos tag: PRON           lemma: you
     token: said           pos tag: VERB           lemma: say
@@ -2588,7 +2606,7 @@ turn 167
     token: participate          pos tag: VERB           lemma: participate
     named_entities: rick        type: PERSON
 turn 168
-    sentence: yeah, job shadowing is a good idea - def. - it gives ideas and shows the kid their interests and strengths
+    sentence: yeah, job shadowing is a good idea - def.
     token: yeah               pos tag: INTJ           lemma: yeah
     token: ,                  pos tag: PUNCT          lemma: ,
     token: job                pos tag: NOUN           lemma: job
@@ -2600,6 +2618,7 @@ turn 168
     token: -                  pos tag: PUNCT          lemma: -
     token: def                pos tag: NOUN           lemma: def
     token: .                  pos tag: PUNCT          lemma: .
+    sentence: - it gives ideas and shows the kid their interests and strengths
     token: -                  pos tag: PUNCT          lemma: -
     token: it                 pos tag: PRON           lemma: it
     token: gives              pos tag: VERB           lemma: give
@@ -2641,12 +2660,14 @@ turn 171
     sentence: link
     token: link          pos tag: VERB          lemma: link
 turn 172
-    sentence: i agree with you david I just don't agree with the fact that they cannot, because like you said they obviously can
-    token: i                  pos tag: PRON           lemma: I
-    token: agree              pos tag: VERB           lemma: agree
-    token: with               pos tag: ADP            lemma: with
-    token: you                pos tag: PRON           lemma: you
-    token: david              pos tag: PROPN          lemma: david
+    sentence: i agree with you david
+    token: i               pos tag: PRON           lemma: I
+    token: agree           pos tag: VERB           lemma: agree
+    token: with            pos tag: ADP            lemma: with
+    token: you             pos tag: PRON           lemma: you
+    token: david           pos tag: PROPN          lemma: david
+    named_entities: david  type: PERSON
+    sentence: I just don't agree with the fact that they cannot, because like you said they obviously can
     token: I                  pos tag: PRON           lemma: I
     token: just               pos tag: ADV            lemma: just
     token: do                 pos tag: AUX            lemma: do
@@ -2667,7 +2688,6 @@ turn 172
     token: they               pos tag: PRON           lemma: they
     token: obviously          pos tag: ADV            lemma: obviously
     token: can                pos tag: AUX            lemma: can
-    named_entities: david     type: PERSON
 turn 173
     sentence: over-all, 65% of men are graduating versus 72% of women
     token: over                pos tag: ADP            lemma: over
@@ -3054,7 +3074,7 @@ turn 200
     sentence: ;-)
     token: ;-)          pos tag: PUNCT          lemma: ;-)
 turn 201
-    sentence: yeah - as long as the business owners arent exploiting them - it has to be fair of course - yeah, it would be tough to get that part down
+    sentence: yeah - as long as the business owners arent exploiting them - it has to be fair of course -
     token: yeah                pos tag: INTJ           lemma: yeah
     token: -                   pos tag: PUNCT          lemma: -
     token: as                  pos tag: ADV            lemma: as
@@ -3076,17 +3096,18 @@ turn 201
     token: of                  pos tag: ADP            lemma: of
     token: course              pos tag: NOUN           lemma: course
     token: -                   pos tag: PUNCT          lemma: -
-    token: yeah                pos tag: INTJ           lemma: yeah
-    token: ,                   pos tag: PUNCT          lemma: ,
-    token: it                  pos tag: PRON           lemma: it
-    token: would               pos tag: AUX            lemma: would
-    token: be                  pos tag: AUX            lemma: be
-    token: tough               pos tag: ADJ            lemma: tough
-    token: to                  pos tag: PART           lemma: to
-    token: get                 pos tag: VERB           lemma: get
-    token: that                pos tag: DET            lemma: that
-    token: part                pos tag: NOUN           lemma: part
-    token: down                pos tag: ADP            lemma: down
+    sentence: yeah, it would be tough to get that part down
+    token: yeah           pos tag: INTJ           lemma: yeah
+    token: ,              pos tag: PUNCT          lemma: ,
+    token: it             pos tag: PRON           lemma: it
+    token: would          pos tag: AUX            lemma: would
+    token: be             pos tag: AUX            lemma: be
+    token: tough          pos tag: ADJ            lemma: tough
+    token: to             pos tag: PART           lemma: to
+    token: get            pos tag: VERB           lemma: get
+    token: that           pos tag: DET            lemma: that
+    token: part           pos tag: NOUN           lemma: part
+    token: down           pos tag: ADP            lemma: down
 turn 202
     sentence: yeah exploiting the system for $
     token: yeah                pos tag: INTJ          lemma: yeah
@@ -3164,18 +3185,20 @@ turn 205
     token: through            pos tag: ADP            lemma: through
     named_entities: 10        type: CARDINAL
 turn 206
-    sentence: so is this something for our list of 5 items? what shall we call it-- exploration days?
-    token: so                   pos tag: ADV            lemma: so
-    token: is                   pos tag: AUX            lemma: be
-    token: this                 pos tag: PRON           lemma: this
-    token: something            pos tag: PRON           lemma: something
-    token: for                  pos tag: ADP            lemma: for
-    token: our                  pos tag: PRON           lemma: our
-    token: list                 pos tag: NOUN           lemma: list
-    token: of                   pos tag: ADP            lemma: of
-    token: 5                    pos tag: NUM            lemma: 5
-    token: items                pos tag: NOUN           lemma: item
-    token: ?                    pos tag: PUNCT          lemma: ?
+    sentence: so is this something for our list of 5 items?
+    token: so                 pos tag: ADV            lemma: so
+    token: is                 pos tag: AUX            lemma: be
+    token: this               pos tag: PRON           lemma: this
+    token: something          pos tag: PRON           lemma: something
+    token: for                pos tag: ADP            lemma: for
+    token: our                pos tag: PRON           lemma: our
+    token: list               pos tag: NOUN           lemma: list
+    token: of                 pos tag: ADP            lemma: of
+    token: 5                  pos tag: NUM            lemma: 5
+    token: items              pos tag: NOUN           lemma: item
+    token: ?                  pos tag: PUNCT          lemma: ?
+    named_entities: 5         type: CARDINAL
+    sentence: what shall we call it-- exploration days?
     token: what                 pos tag: PRON           lemma: what
     token: shall                pos tag: AUX            lemma: shall
     token: we                   pos tag: PRON           lemma: we
@@ -3184,9 +3207,8 @@ turn 206
     token: exploration          pos tag: NOUN           lemma: exploration
     token: days                 pos tag: NOUN           lemma: day
     token: ?                    pos tag: PUNCT          lemma: ?
-    named_entities: 5           type: CARDINAL
 turn 207
-    sentence: if they're under 18 especially - what about scholarships for men ? haha, seriously why not
+    sentence: if they're under 18 especially - what about scholarships for men ?
     token: if                    pos tag: SCONJ          lemma: if
     token: they                  pos tag: PRON           lemma: they
     token: 're                   pos tag: AUX            lemma: be
@@ -3200,12 +3222,13 @@ turn 207
     token: for                   pos tag: ADP            lemma: for
     token: men                   pos tag: NOUN           lemma: man
     token: ?                     pos tag: PUNCT          lemma: ?
-    token: haha                  pos tag: INTJ           lemma: haha
-    token: ,                     pos tag: PUNCT          lemma: ,
-    token: seriously             pos tag: ADV            lemma: seriously
-    token: why                   pos tag: SCONJ          lemma: why
-    token: not                   pos tag: PART           lemma: not
     named_entities: 18           type: CARDINAL
+    sentence: haha, seriously why not
+    token: haha               pos tag: INTJ           lemma: haha
+    token: ,                  pos tag: PUNCT          lemma: ,
+    token: seriously          pos tag: ADV            lemma: seriously
+    token: why                pos tag: SCONJ          lemma: why
+    token: not                pos tag: PART           lemma: not
 turn 208
     sentence: we need 5 items , so far we dont have a lot -
     token: we             pos tag: PRON           lemma: we
@@ -3312,11 +3335,14 @@ turn 214
     token: it              pos tag: PRON          lemma: it
     token: useful          pos tag: ADJ           lemma: useful
 turn 215
-    sentence: lol right- just one but i think something else was brought up earlier-
+    sentence: lol right- just one
     token: lol                pos tag: PROPN          lemma: lol
     token: right-             pos tag: ADJ            lemma: right-
     token: just               pos tag: ADV            lemma: just
     token: one                pos tag: NUM            lemma: one
+    named_entities: lol       type: ORG
+    named_entities: just one  type: CARDINAL
+    sentence: but i think something else was brought up earlier-
     token: but                pos tag: CCONJ          lemma: but
     token: i                  pos tag: PRON           lemma: I
     token: think              pos tag: VERB           lemma: think
@@ -3326,8 +3352,6 @@ turn 215
     token: brought            pos tag: VERB           lemma: bring
     token: up                 pos tag: ADP            lemma: up
     token: earlier-           pos tag: NUM            lemma: earlier-
-    named_entities: lol       type: ORG
-    named_entities: just one  type: CARDINAL
 turn 216
     sentence: I think that it would work better if kids went individually or in small groups with a parental, a whole class can get kinda hairy
     token: I                     pos tag: PRON           lemma: I
@@ -3469,7 +3493,7 @@ turn 222
     token: there           pos tag: ADV            lemma: there
     named_entities: david  type: PERSON
 turn 223
-    sentence: schools should be more involved in medical practices and opening it up to high school students.. when i was in high school i was part of a program called med-tech. It was a medical program where we had a double period including a lab and an intro to college level bio
+    sentence: schools should be more involved in medical practices and opening it up to high school students..
     token: schools            pos tag: NOUN           lemma: school
     token: should             pos tag: AUX            lemma: should
     token: be                 pos tag: AUX            lemma: be
@@ -3487,23 +3511,25 @@ turn 223
     token: school             pos tag: NOUN           lemma: school
     token: students           pos tag: NOUN           lemma: student
     token: ..                 pos tag: PUNCT          lemma: ..
-    token: when               pos tag: SCONJ          lemma: when
-    token: i                  pos tag: PRON           lemma: I
-    token: was                pos tag: AUX            lemma: be
-    token: in                 pos tag: ADP            lemma: in
-    token: high               pos tag: ADJ            lemma: high
-    token: school             pos tag: NOUN           lemma: school
-    token: i                  pos tag: PRON           lemma: I
-    token: was                pos tag: AUX            lemma: be
-    token: part               pos tag: NOUN           lemma: part
-    token: of                 pos tag: ADP            lemma: of
-    token: a                  pos tag: DET            lemma: a
-    token: program            pos tag: NOUN           lemma: program
-    token: called             pos tag: VERB           lemma: call
-    token: med                pos tag: VERB           lemma: me
-    token: -                  pos tag: PUNCT          lemma: -
-    token: tech               pos tag: NOUN           lemma: tech
-    token: .                  pos tag: PUNCT          lemma: .
+    sentence: when i was in high school i was part of a program called med-tech.
+    token: when             pos tag: SCONJ          lemma: when
+    token: i                pos tag: PRON           lemma: I
+    token: was              pos tag: AUX            lemma: be
+    token: in               pos tag: ADP            lemma: in
+    token: high             pos tag: ADJ            lemma: high
+    token: school           pos tag: NOUN           lemma: school
+    token: i                pos tag: PRON           lemma: I
+    token: was              pos tag: AUX            lemma: be
+    token: part             pos tag: NOUN           lemma: part
+    token: of               pos tag: ADP            lemma: of
+    token: a                pos tag: DET            lemma: a
+    token: program          pos tag: NOUN           lemma: program
+    token: called           pos tag: VERB           lemma: call
+    token: med              pos tag: VERB           lemma: me
+    token: -                pos tag: PUNCT          lemma: -
+    token: tech             pos tag: NOUN           lemma: tech
+    token: .                pos tag: PUNCT          lemma: .
+    sentence: It was a medical program where we had a double period including a lab and an intro to college level bio
     token: It                 pos tag: PRON           lemma: it
     token: was                pos tag: AUX            lemma: be
     token: a                  pos tag: DET            lemma: a
@@ -3580,12 +3606,13 @@ turn 228
     token: -                pos tag: PUNCT          lemma: -
     token: only             pos tag: ADV            lemma: only
 turn 229
-    sentence: no, not really....but you know how kids are split up for reproductive health many times....
-    token: no                    pos tag: INTJ           lemma: no
-    token: ,                     pos tag: PUNCT          lemma: ,
-    token: not                   pos tag: PART           lemma: not
-    token: really                pos tag: ADV            lemma: really
-    token: ....                  pos tag: PUNCT          lemma: ....
+    sentence: no, not really....
+    token: no              pos tag: INTJ           lemma: no
+    token: ,               pos tag: PUNCT          lemma: ,
+    token: not             pos tag: PART           lemma: not
+    token: really          pos tag: ADV            lemma: really
+    token: ....            pos tag: PUNCT          lemma: ....
+    sentence: but you know how kids are split up for reproductive health many times....
     token: but                   pos tag: CCONJ          lemma: but
     token: you                   pos tag: PRON           lemma: you
     token: know                  pos tag: VERB           lemma: know
@@ -3629,9 +3656,10 @@ turn 231
     token: "                     pos tag: PUNCT          lemma: "
     token: academcially          pos tag: ADV            lemma: academcially
 turn 232
-    sentence: yeah, but this article is already 2 years old - and the data is even stronger now
-    token: yeah                  pos tag: INTJ           lemma: yeah
-    token: ,                     pos tag: PUNCT          lemma: ,
+    sentence: yeah,
+    token: yeah          pos tag: INTJ           lemma: yeah
+    token: ,             pos tag: PUNCT          lemma: ,
+    sentence: but this article is already 2 years old - and the data is even stronger now
     token: but                   pos tag: CCONJ          lemma: but
     token: this                  pos tag: DET            lemma: this
     token: article               pos tag: NOUN           lemma: article
@@ -3850,7 +3878,7 @@ turn 249
     token: to               pos tag: ADP           lemma: to
     token: earlier          pos tag: ADV           lemma: early
 turn 250
-    sentence: it wont make a difference, after 12 or 13 - okay then they can go to school with girls
+    sentence: it wont make a difference, after 12 or 13 -
     token: it                  pos tag: PRON           lemma: it
     token: wo                  pos tag: AUX            lemma: will
     token: nt                  pos tag: PART           lemma: not
@@ -3863,17 +3891,18 @@ turn 250
     token: or                  pos tag: CCONJ          lemma: or
     token: 13                  pos tag: NUM            lemma: 13
     token: -                   pos tag: PUNCT          lemma: -
-    token: okay                pos tag: INTJ           lemma: okay
-    token: then                pos tag: ADV            lemma: then
-    token: they                pos tag: PRON           lemma: they
-    token: can                 pos tag: AUX            lemma: can
-    token: go                  pos tag: VERB           lemma: go
-    token: to                  pos tag: ADP            lemma: to
-    token: school              pos tag: NOUN           lemma: school
-    token: with                pos tag: ADP            lemma: with
-    token: girls               pos tag: NOUN           lemma: girl
     named_entities: 12         type: CARDINAL
     named_entities: 13         type: CARDINAL
+    sentence: okay then they can go to school with girls
+    token: okay            pos tag: INTJ          lemma: okay
+    token: then            pos tag: ADV           lemma: then
+    token: they            pos tag: PRON          lemma: they
+    token: can             pos tag: AUX           lemma: can
+    token: go              pos tag: VERB          lemma: go
+    token: to              pos tag: ADP           lemma: to
+    token: school          pos tag: NOUN          lemma: school
+    token: with            pos tag: ADP           lemma: with
+    token: girls           pos tag: NOUN          lemma: girl
 turn 251
     sentence: was talking about single-sex schools as a solution
     token: was               pos tag: AUX            lemma: be
@@ -4064,7 +4093,7 @@ turn 267
     token: though                pos tag: ADV            lemma: though
     named_entities: a few years  type: DATE
 turn 268
-    sentence: bc theres so much resistance to the idea, that its only on a small scale right now
+    sentence: bc theres so much resistance to the idea,
     token: bc                  pos tag: PROPN          lemma: bc
     token: there               pos tag: PRON           lemma: there
     token: s                   pos tag: VERB           lemma: s
@@ -4075,15 +4104,16 @@ turn 268
     token: the                 pos tag: DET            lemma: the
     token: idea                pos tag: NOUN           lemma: idea
     token: ,                   pos tag: PUNCT          lemma: ,
-    token: that                pos tag: SCONJ          lemma: that
-    token: its                 pos tag: PRON           lemma: its
-    token: only                pos tag: ADJ            lemma: only
-    token: on                  pos tag: ADP            lemma: on
-    token: a                   pos tag: DET            lemma: a
-    token: small               pos tag: ADJ            lemma: small
-    token: scale               pos tag: NOUN           lemma: scale
-    token: right               pos tag: ADV            lemma: right
-    token: now                 pos tag: ADV            lemma: now
+    sentence: that its only on a small scale right now
+    token: that           pos tag: SCONJ          lemma: that
+    token: its            pos tag: PRON           lemma: its
+    token: only           pos tag: ADJ            lemma: only
+    token: on             pos tag: ADP            lemma: on
+    token: a              pos tag: DET            lemma: a
+    token: small          pos tag: ADJ            lemma: small
+    token: scale          pos tag: NOUN           lemma: scale
+    token: right          pos tag: ADV            lemma: right
+    token: now            pos tag: ADV            lemma: now
 turn 269
     sentence: this might be where parents need to step in.....if separation at school is not a solution or separate classes, than parents might want to consider making sure their child is reaching their potential and that the boys are reaching and that the girls are reaching, and not "dumbing down"
     token: this                pos tag: PRON           lemma: this
@@ -4404,10 +4434,11 @@ turn 285
     token: and             pos tag: CCONJ          lemma: and
     token: girls           pos tag: NOUN           lemma: girl
 turn 286
-    sentence: boys def. mature slower, so i guess thats accurate - but i mean, in college the boys priority is the same as hs, sports and girls
-    token: boys              pos tag: NOUN           lemma: boy
-    token: def               pos tag: VERB           lemma: def
-    token: .                 pos tag: PUNCT          lemma: .
+    sentence: boys def.
+    token: boys          pos tag: NOUN           lemma: boy
+    token: def           pos tag: VERB           lemma: def
+    token: .             pos tag: PUNCT          lemma: .
+    sentence: mature slower, so i guess thats accurate - but i mean, in college the boys priority is the same as hs, sports and girls
     token: mature            pos tag: ADJ            lemma: mature
     token: slower            pos tag: ADV            lemma: slow
     token: ,                 pos tag: PUNCT          lemma: ,
@@ -4526,9 +4557,10 @@ turn 291
     token: the                 pos tag: DET           lemma: the
     token: separation          pos tag: NOUN          lemma: separation
 turn 292
-    sentence: Same. More independence in the classroom is a major trend in education.
-    token: Same                  pos tag: ADJ            lemma: same
-    token: .                     pos tag: PUNCT          lemma: .
+    sentence: Same.
+    token: Same          pos tag: ADJ            lemma: same
+    token: .             pos tag: PUNCT          lemma: .
+    sentence: More independence in the classroom is a major trend in education.
     token: More                  pos tag: ADJ            lemma: More
     token: independence          pos tag: NOUN           lemma: independence
     token: in                    pos tag: ADP            lemma: in
@@ -4732,14 +4764,15 @@ turn 309
     token: that               pos tag: SCONJ          lemma: that
     token: men                pos tag: NOUN           lemma: man
 turn 310
-    sentence: male teachers are more in demand yeah
+    sentence: male teachers are more in demand
     token: male              pos tag: ADJ           lemma: male
     token: teachers          pos tag: NOUN          lemma: teacher
     token: are               pos tag: AUX           lemma: be
     token: more              pos tag: ADJ           lemma: more
     token: in                pos tag: ADP           lemma: in
     token: demand            pos tag: NOUN          lemma: demand
-    token: yeah              pos tag: INTJ          lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
 turn 311
     sentence: but it's a circular problem :-\
     token: but               pos tag: CCONJ          lemma: but
@@ -4867,7 +4900,7 @@ turn 319
     token: volunteer          pos tag: NOUN           lemma: volunteer
     token: work               pos tag: NOUN           lemma: work
 turn 320
-    sentence: i think women have just been attracted to more caring and attentive occupations such as doctors, nurses and teachers... somehow we have to make these occupations more appealing to men
+    sentence: i think women have just been attracted to more caring and attentive occupations such as doctors, nurses and teachers...
     token: i                    pos tag: PRON           lemma: I
     token: think                pos tag: VERB           lemma: think
     token: women                pos tag: NOUN           lemma: woman
@@ -4889,17 +4922,18 @@ turn 320
     token: and                  pos tag: CCONJ          lemma: and
     token: teachers             pos tag: NOUN           lemma: teacher
     token: ...                  pos tag: PUNCT          lemma: ...
-    token: somehow              pos tag: ADV            lemma: somehow
-    token: we                   pos tag: PRON           lemma: we
-    token: have                 pos tag: VERB           lemma: have
-    token: to                   pos tag: PART           lemma: to
-    token: make                 pos tag: VERB           lemma: make
-    token: these                pos tag: DET            lemma: these
-    token: occupations          pos tag: NOUN           lemma: occupation
-    token: more                 pos tag: ADV            lemma: more
-    token: appealing            pos tag: ADJ            lemma: appealing
-    token: to                   pos tag: ADP            lemma: to
-    token: men                  pos tag: NOUN           lemma: man
+    sentence: somehow we have to make these occupations more appealing to men
+    token: somehow              pos tag: ADV           lemma: somehow
+    token: we                   pos tag: PRON          lemma: we
+    token: have                 pos tag: VERB          lemma: have
+    token: to                   pos tag: PART          lemma: to
+    token: make                 pos tag: VERB          lemma: make
+    token: these                pos tag: DET           lemma: these
+    token: occupations          pos tag: NOUN          lemma: occupation
+    token: more                 pos tag: ADV           lemma: more
+    token: appealing            pos tag: ADJ           lemma: appealing
+    token: to                   pos tag: ADP           lemma: to
+    token: men                  pos tag: NOUN          lemma: man
 turn 321
     sentence: the education gap favors men
     token: the                pos tag: DET           lemma: the
@@ -5050,50 +5084,51 @@ turn 334
     token: up              pos tag: NOUN           lemma: up
     token: "               pos tag: PUNCT          lemma: "
 turn 335
-    sentence: yeah, thats what i mean - thats why its good for guys - thats becoming more common , i dont know about marriage that way, although apparently thats changeing too, but def. relationships too
-    token: yeah                   pos tag: INTJ           lemma: yeah
-    token: ,                      pos tag: PUNCT          lemma: ,
-    token: that                   pos tag: PRON           lemma: that
-    token: s                      pos tag: VERB           lemma: s
-    token: what                   pos tag: PRON           lemma: what
-    token: i                      pos tag: PRON           lemma: I
-    token: mean                   pos tag: VERB           lemma: mean
-    token: -                      pos tag: PUNCT          lemma: -
-    token: that                   pos tag: PRON           lemma: that
-    token: s                      pos tag: VERB           lemma: s
-    token: why                    pos tag: SCONJ          lemma: why
-    token: its                    pos tag: PRON           lemma: its
-    token: good                   pos tag: NOUN           lemma: good
-    token: for                    pos tag: ADP            lemma: for
-    token: guys                   pos tag: NOUN           lemma: guy
-    token: -                      pos tag: PUNCT          lemma: -
-    token: that                   pos tag: PRON           lemma: that
-    token: s                      pos tag: AUX            lemma: s
-    token: becoming               pos tag: VERB           lemma: become
-    token: more                   pos tag: ADV            lemma: more
-    token: common                 pos tag: ADJ            lemma: common
-    token: ,                      pos tag: PUNCT          lemma: ,
-    token: i                      pos tag: PRON           lemma: I
-    token: do                     pos tag: AUX            lemma: do
-    token: nt                     pos tag: PART           lemma: not
-    token: know                   pos tag: VERB           lemma: know
-    token: about                  pos tag: ADP            lemma: about
-    token: marriage               pos tag: NOUN           lemma: marriage
-    token: that                   pos tag: DET            lemma: that
-    token: way                    pos tag: NOUN           lemma: way
-    token: ,                      pos tag: PUNCT          lemma: ,
-    token: although               pos tag: SCONJ          lemma: although
-    token: apparently             pos tag: ADV            lemma: apparently
-    token: that                   pos tag: PRON           lemma: that
-    token: s                      pos tag: AUX            lemma: s
-    token: changeing              pos tag: VERB           lemma: change
-    token: too                    pos tag: ADV            lemma: too
-    token: ,                      pos tag: PUNCT          lemma: ,
-    token: but                    pos tag: CCONJ          lemma: but
-    token: def                    pos tag: NOUN           lemma: def
-    token: .                      pos tag: PUNCT          lemma: .
-    token: relationships          pos tag: NOUN           lemma: relationship
-    token: too                    pos tag: ADV            lemma: too
+    sentence: yeah, thats what i mean - thats why its good for guys - thats becoming more common , i dont know about marriage that way, although apparently thats changeing too, but def.
+    token: yeah                pos tag: INTJ           lemma: yeah
+    token: ,                   pos tag: PUNCT          lemma: ,
+    token: that                pos tag: PRON           lemma: that
+    token: s                   pos tag: VERB           lemma: s
+    token: what                pos tag: PRON           lemma: what
+    token: i                   pos tag: PRON           lemma: I
+    token: mean                pos tag: VERB           lemma: mean
+    token: -                   pos tag: PUNCT          lemma: -
+    token: that                pos tag: PRON           lemma: that
+    token: s                   pos tag: VERB           lemma: s
+    token: why                 pos tag: SCONJ          lemma: why
+    token: its                 pos tag: PRON           lemma: its
+    token: good                pos tag: NOUN           lemma: good
+    token: for                 pos tag: ADP            lemma: for
+    token: guys                pos tag: NOUN           lemma: guy
+    token: -                   pos tag: PUNCT          lemma: -
+    token: that                pos tag: PRON           lemma: that
+    token: s                   pos tag: AUX            lemma: s
+    token: becoming            pos tag: VERB           lemma: become
+    token: more                pos tag: ADV            lemma: more
+    token: common              pos tag: ADJ            lemma: common
+    token: ,                   pos tag: PUNCT          lemma: ,
+    token: i                   pos tag: PRON           lemma: I
+    token: do                  pos tag: AUX            lemma: do
+    token: nt                  pos tag: PART           lemma: not
+    token: know                pos tag: VERB           lemma: know
+    token: about               pos tag: ADP            lemma: about
+    token: marriage            pos tag: NOUN           lemma: marriage
+    token: that                pos tag: DET            lemma: that
+    token: way                 pos tag: NOUN           lemma: way
+    token: ,                   pos tag: PUNCT          lemma: ,
+    token: although            pos tag: SCONJ          lemma: although
+    token: apparently          pos tag: ADV            lemma: apparently
+    token: that                pos tag: PRON           lemma: that
+    token: s                   pos tag: AUX            lemma: s
+    token: changeing           pos tag: VERB           lemma: change
+    token: too                 pos tag: ADV            lemma: too
+    token: ,                   pos tag: PUNCT          lemma: ,
+    token: but                 pos tag: CCONJ          lemma: but
+    token: def                 pos tag: NOUN           lemma: def
+    token: .                   pos tag: PUNCT          lemma: .
+    sentence: relationships too
+    token: relationships          pos tag: NOUN          lemma: relationship
+    token: too                    pos tag: ADV           lemma: too
 turn 336
     sentence: yeah
     token: yeah          pos tag: INTJ          lemma: yeah
@@ -5678,12 +5713,13 @@ turn 388
     token: teacher              pos tag: NOUN          lemma: teacher
     token: incentives           pos tag: NOUN          lemma: incentive
 turn 389
-    sentence: yeah, def. not
+    sentence: yeah, def.
     token: yeah          pos tag: INTJ           lemma: yeah
     token: ,             pos tag: PUNCT          lemma: ,
     token: def           pos tag: NOUN           lemma: def
     token: .             pos tag: PUNCT          lemma: .
-    token: not           pos tag: PART           lemma: not
+    sentence: not
+    token: not          pos tag: PART          lemma: not
 turn 390
     sentence: incentives to become teachers would work
     token: incentives          pos tag: NOUN          lemma: incentive
@@ -5902,16 +5938,17 @@ turn 404
     token: legislation          pos tag: NOUN           lemma: legislation
     token: maybe                pos tag: ADV            lemma: maybe
 turn 405
-    sentence: well - yeah, its called affirmative action - so right now , we hire women if the qualifications are equal
-    token: well                    pos tag: INTJ           lemma: well
-    token: -                       pos tag: PUNCT          lemma: -
-    token: yeah                    pos tag: INTJ           lemma: yeah
-    token: ,                       pos tag: PUNCT          lemma: ,
-    token: its                     pos tag: PRON           lemma: its
-    token: called                  pos tag: VERB           lemma: call
-    token: affirmative             pos tag: ADJ            lemma: affirmative
-    token: action                  pos tag: NOUN           lemma: action
-    token: -                       pos tag: PUNCT          lemma: -
+    sentence: well - yeah, its called affirmative action -
+    token: well                 pos tag: INTJ           lemma: well
+    token: -                    pos tag: PUNCT          lemma: -
+    token: yeah                 pos tag: INTJ           lemma: yeah
+    token: ,                    pos tag: PUNCT          lemma: ,
+    token: its                  pos tag: PRON           lemma: its
+    token: called               pos tag: VERB           lemma: call
+    token: affirmative          pos tag: ADJ            lemma: affirmative
+    token: action               pos tag: NOUN           lemma: action
+    token: -                    pos tag: PUNCT          lemma: -
+    sentence: so right now , we hire women if the qualifications are equal
     token: so                      pos tag: ADV            lemma: so
     token: right                   pos tag: ADV            lemma: right
     token: now                     pos tag: ADV            lemma: now
@@ -6425,15 +6462,16 @@ turn 444
     token: first                pos tag: ADV           lemma: first
     named_entities: first       type: ORDINAL
 turn 445
-    sentence: i didnt think about that but yeah
-    token: i              pos tag: PRON           lemma: I
-    token: did            pos tag: AUX            lemma: do
-    token: nt             pos tag: PART           lemma: not
-    token: think          pos tag: VERB           lemma: think
-    token: about          pos tag: ADP            lemma: about
-    token: that           pos tag: PRON           lemma: that
-    token: but            pos tag: CCONJ          lemma: but
-    token: yeah           pos tag: INTJ           lemma: yeah
+    sentence: i didnt think about that
+    token: i              pos tag: PRON          lemma: I
+    token: did            pos tag: AUX           lemma: do
+    token: nt             pos tag: PART          lemma: not
+    token: think          pos tag: VERB          lemma: think
+    token: about          pos tag: ADP           lemma: about
+    token: that           pos tag: PRON          lemma: that
+    sentence: but yeah
+    token: but           pos tag: CCONJ          lemma: but
+    token: yeah          pos tag: INTJ           lemma: yeah
 turn 446
     sentence: yeah - raising standards is good - but it might be too unobtainable
     token: yeah                  pos tag: INTJ           lemma: yeah
@@ -6613,8 +6651,9 @@ turn 463
     token: a                 pos tag: DET           lemma: a
     token: solution          pos tag: NOUN          lemma: solution
 turn 464
-    sentence: yea i dont think it takes away from learning
-    token: yea               pos tag: INTJ          lemma: yea
+    sentence: yea
+    token: yea          pos tag: INTJ          lemma: yea
+    sentence: i dont think it takes away from learning
     token: i                 pos tag: PRON          lemma: I
     token: do                pos tag: AUX           lemma: do
     token: nt                pos tag: PART          lemma: not
@@ -6890,22 +6929,28 @@ turn 482
     token: or                pos tag: CCONJ          lemma: or
     token: not               pos tag: PART           lemma: not
 turn 483
-    sentence: 1. hands-on activities 2. workplace (internships?) 3. more male teachers 4. extracurricular activities 5. gender-specific learning skills
-    token: 1                        pos tag: X              lemma: 1
-    token: .                        pos tag: X              lemma: .
-    token: hands                    pos tag: NOUN           lemma: hand
-    token: -                        pos tag: PUNCT          lemma: -
-    token: on                       pos tag: ADP            lemma: on
-    token: activities               pos tag: NOUN           lemma: activity
-    token: 2                        pos tag: NUM            lemma: 2
-    token: .                        pos tag: NOUN           lemma: .
-    token: workplace                pos tag: NOUN           lemma: workplace
-    token: (                        pos tag: PUNCT          lemma: (
-    token: internships              pos tag: NOUN           lemma: internship
-    token: ?                        pos tag: PUNCT          lemma: ?
-    token: )                        pos tag: PUNCT          lemma: )
-    token: 3                        pos tag: X              lemma: 3
-    token: .                        pos tag: PUNCT          lemma: .
+    sentence: 1. hands-on activities 2. workplace (internships?)
+    token: 1                    pos tag: X              lemma: 1
+    token: .                    pos tag: X              lemma: .
+    token: hands                pos tag: NOUN           lemma: hand
+    token: -                    pos tag: PUNCT          lemma: -
+    token: on                   pos tag: ADP            lemma: on
+    token: activities           pos tag: NOUN           lemma: activity
+    token: 2                    pos tag: NUM            lemma: 2
+    token: .                    pos tag: NOUN           lemma: .
+    token: workplace            pos tag: NOUN           lemma: workplace
+    token: (                    pos tag: PUNCT          lemma: (
+    token: internships          pos tag: NOUN           lemma: internship
+    token: ?                    pos tag: PUNCT          lemma: ?
+    token: )                    pos tag: PUNCT          lemma: )
+    named_entities: 1           type: CARDINAL
+    named_entities: 2           type: CARDINAL
+    named_entities: workplace   type: PERSON
+    sentence: 3.
+    token: 3           pos tag: X              lemma: 3
+    token: .           pos tag: PUNCT          lemma: .
+    named_entities: 3  type: CARDINAL
+    sentence: more male teachers 4. extracurricular activities 5. gender-specific learning skills
     token: more                     pos tag: ADJ            lemma: more
     token: male                     pos tag: ADJ            lemma: male
     token: teachers                 pos tag: NOUN           lemma: teacher
@@ -6920,10 +6965,6 @@ turn 483
     token: specific                 pos tag: ADJ            lemma: specific
     token: learning                 pos tag: NOUN           lemma: learning
     token: skills                   pos tag: NOUN           lemma: skill
-    named_entities: 1               type: CARDINAL
-    named_entities: 2               type: CARDINAL
-    named_entities: workplace       type: PERSON
-    named_entities: 3               type: CARDINAL
     named_entities: 4               type: CARDINAL
     named_entities: 5               type: CARDINAL
 turn 484
@@ -6968,8 +7009,9 @@ turn 486
     token: reprioritization          pos tag: NOUN           lemma: reprioritization
     token: !                         pos tag: PUNCT          lemma: !
 turn 487
-    sentence: yea but i dont think that will happen david... we are soooo big on our military
-    token: yea                    pos tag: INTJ           lemma: yea
+    sentence: yea
+    token: yea          pos tag: INTJ          lemma: yea
+    sentence: but i dont think that will happen david... we are soooo big on our military
     token: but                    pos tag: CCONJ          lemma: but
     token: i                      pos tag: PRON           lemma: I
     token: do                     pos tag: AUX            lemma: do
@@ -7004,7 +7046,7 @@ turn 489
     token: julie              pos tag: NOUN          lemma: julie
     named_entities: about #5  type: MONEY
 turn 490
-    sentence: yeah, thats a great list julie - its not super specific - in terms of 4, but i could've contributed there and i didnt
+    sentence: yeah, thats a great list julie - its not super specific - in terms of 4, but i could've contributed there
     token: yeah                 pos tag: INTJ           lemma: yeah
     token: ,                    pos tag: PUNCT          lemma: ,
     token: that                 pos tag: PRON           lemma: that
@@ -7030,11 +7072,12 @@ turn 490
     token: 've                  pos tag: AUX            lemma: 've
     token: contributed          pos tag: VERB           lemma: contribute
     token: there                pos tag: ADV            lemma: there
-    token: and                  pos tag: CCONJ          lemma: and
-    token: i                    pos tag: PRON           lemma: I
-    token: did                  pos tag: VERB           lemma: do
-    token: nt                   pos tag: PART           lemma: not
     named_entities: 4           type: CARDINAL
+    sentence: and i didnt
+    token: and          pos tag: CCONJ          lemma: and
+    token: i            pos tag: PRON           lemma: I
+    token: did          pos tag: VERB           lemma: do
+    token: nt           pos tag: PART           lemma: not
 turn 491
     sentence: maybe differentiated learning, but I think splitting things by gender is off-track
     token: maybe                   pos tag: ADV            lemma: maybe
@@ -7107,16 +7150,17 @@ turn 497
     sentence: school
     token: school          pos tag: NOUN          lemma: school
 turn 498
-    sentence: nobody likes the idea of single sex classrooms? its just for one or two classes of the day when you're like eight years old
-    token: nobody                    pos tag: PRON           lemma: nobody
-    token: likes                     pos tag: VERB           lemma: like
-    token: the                       pos tag: DET            lemma: the
-    token: idea                      pos tag: NOUN           lemma: idea
-    token: of                        pos tag: ADP            lemma: of
-    token: single                    pos tag: ADJ            lemma: single
-    token: sex                       pos tag: NOUN           lemma: sex
-    token: classrooms                pos tag: NOUN           lemma: classroom
-    token: ?                         pos tag: PUNCT          lemma: ?
+    sentence: nobody likes the idea of single sex classrooms?
+    token: nobody              pos tag: PRON           lemma: nobody
+    token: likes               pos tag: VERB           lemma: like
+    token: the                 pos tag: DET            lemma: the
+    token: idea                pos tag: NOUN           lemma: idea
+    token: of                  pos tag: ADP            lemma: of
+    token: single              pos tag: ADJ            lemma: single
+    token: sex                 pos tag: NOUN           lemma: sex
+    token: classrooms          pos tag: NOUN           lemma: classroom
+    token: ?                   pos tag: PUNCT          lemma: ?
+    sentence: its just for one or two classes of the day when you're like eight years old
     token: its                       pos tag: PRON           lemma: its
     token: just                      pos tag: ADV            lemma: just
     token: for                       pos tag: ADP            lemma: for
@@ -7282,7 +7326,7 @@ turn 511
     token: ,               pos tag: PUNCT          lemma: ,
     token: really          pos tag: ADV            lemma: really
 turn 512
-    sentence: In my school I was the last class to use the wood shop, that was the coolest (and most dangerous) class ever. If there was more practical, hands on learning mixed in boys might feel motivated to stay.
+    sentence: In my school I was the last class to use the wood shop, that was the coolest (and most dangerous) class ever.
     token: In                 pos tag: ADP            lemma: in
     token: my                 pos tag: PRON           lemma: my
     token: school             pos tag: NOUN           lemma: school
@@ -7309,6 +7353,7 @@ turn 512
     token: class              pos tag: NOUN           lemma: class
     token: ever               pos tag: ADV            lemma: ever
     token: .                  pos tag: PUNCT          lemma: .
+    sentence: If there was more practical, hands on learning mixed in boys might feel motivated to stay.
     token: If                 pos tag: SCONJ          lemma: if
     token: there              pos tag: PRON           lemma: there
     token: was                pos tag: VERB           lemma: be
@@ -7328,8 +7373,9 @@ turn 512
     token: stay               pos tag: VERB           lemma: stay
     token: .                  pos tag: PUNCT          lemma: .
 turn 513
-    sentence: yeah but also i think there are certain girls and guys who prefer maybe a more sport oriented gym class or a less sport oriented gym class
-    token: yeah              pos tag: INTJ           lemma: yeah
+    sentence: yeah
+    token: yeah          pos tag: INTJ          lemma: yeah
+    sentence: but also i think there are certain girls and guys who prefer maybe a more sport oriented gym class or a less sport oriented gym class
     token: but               pos tag: CCONJ          lemma: but
     token: also              pos tag: ADV            lemma: also
     token: i                 pos tag: PRON           lemma: I
@@ -7458,9 +7504,10 @@ turn 525
     token: in                 pos tag: ADP            lemma: in
     token: general            pos tag: ADJ            lemma: general
 turn 526
-    sentence: yeah - but theres evidence that they just are more active, theyre more physical
-    token: yeah              pos tag: INTJ           lemma: yeah
-    token: -                 pos tag: PUNCT          lemma: -
+    sentence: yeah -
+    token: yeah          pos tag: INTJ           lemma: yeah
+    token: -             pos tag: PUNCT          lemma: -
+    sentence: but theres evidence that they just are more active, theyre more physical
     token: but               pos tag: CCONJ          lemma: but
     token: there             pos tag: PRON           lemma: there
     token: s                 pos tag: VERB           lemma: s
@@ -7591,9 +7638,10 @@ turn 537
     token: *                pos tag: PUNCT          lemma: *
     token: conform          pos tag: VERB           lemma: conform
 turn 538
-    sentence: yeah - but the state's role
-    token: yeah           pos tag: INTJ           lemma: yeah
-    token: -              pos tag: PUNCT          lemma: -
+    sentence: yeah -
+    token: yeah          pos tag: INTJ           lemma: yeah
+    token: -             pos tag: PUNCT          lemma: -
+    sentence: but the state's role
     token: but            pos tag: CCONJ          lemma: but
     token: the            pos tag: DET            lemma: the
     token: state          pos tag: NOUN           lemma: state
@@ -7850,11 +7898,12 @@ turn 557
     token: think          pos tag: VERB          lemma: think
     token: so             pos tag: ADV           lemma: so
 turn 558
-    sentence: yeah, def. - why not - it could even be experimental
-    token: yeah                  pos tag: INTJ           lemma: yeah
-    token: ,                     pos tag: PUNCT          lemma: ,
-    token: def                   pos tag: NOUN           lemma: def
-    token: .                     pos tag: PUNCT          lemma: .
+    sentence: yeah, def.
+    token: yeah          pos tag: INTJ           lemma: yeah
+    token: ,             pos tag: PUNCT          lemma: ,
+    token: def           pos tag: NOUN           lemma: def
+    token: .             pos tag: PUNCT          lemma: .
+    sentence: - why not - it could even be experimental
     token: -                     pos tag: PUNCT          lemma: -
     token: why                   pos tag: SCONJ          lemma: why
     token: not                   pos tag: PART           lemma: not
@@ -8025,7 +8074,7 @@ turn 572
     token: of                  pos tag: ADP           lemma: of
     token: gender              pos tag: NOUN          lemma: gender
 turn 573
-    sentence: so a grade schooler is intelligent and experienced enough for that decision? its okay to go with what they like, but a lot of things have to be decided for them -
+    sentence: so a grade schooler is intelligent and experienced enough for that decision?
     token: so                   pos tag: ADV            lemma: so
     token: a                    pos tag: DET            lemma: a
     token: grade                pos tag: NOUN           lemma: grade
@@ -8039,27 +8088,28 @@ turn 573
     token: that                 pos tag: DET            lemma: that
     token: decision             pos tag: NOUN           lemma: decision
     token: ?                    pos tag: PUNCT          lemma: ?
-    token: its                  pos tag: PRON           lemma: its
-    token: okay                 pos tag: NOUN           lemma: okay
-    token: to                   pos tag: PART           lemma: to
-    token: go                   pos tag: VERB           lemma: go
-    token: with                 pos tag: ADP            lemma: with
-    token: what                 pos tag: PRON           lemma: what
-    token: they                 pos tag: PRON           lemma: they
-    token: like                 pos tag: VERB           lemma: like
-    token: ,                    pos tag: PUNCT          lemma: ,
-    token: but                  pos tag: CCONJ          lemma: but
-    token: a                    pos tag: DET            lemma: a
-    token: lot                  pos tag: NOUN           lemma: lot
-    token: of                   pos tag: ADP            lemma: of
-    token: things               pos tag: NOUN           lemma: thing
-    token: have                 pos tag: VERB           lemma: have
-    token: to                   pos tag: PART           lemma: to
-    token: be                   pos tag: AUX            lemma: be
-    token: decided              pos tag: VERB           lemma: decide
-    token: for                  pos tag: ADP            lemma: for
-    token: them                 pos tag: PRON           lemma: they
-    token: -                    pos tag: PUNCT          lemma: -
+    sentence: its okay to go with what they like, but a lot of things have to be decided for them -
+    token: its              pos tag: PRON           lemma: its
+    token: okay             pos tag: NOUN           lemma: okay
+    token: to               pos tag: PART           lemma: to
+    token: go               pos tag: VERB           lemma: go
+    token: with             pos tag: ADP            lemma: with
+    token: what             pos tag: PRON           lemma: what
+    token: they             pos tag: PRON           lemma: they
+    token: like             pos tag: VERB           lemma: like
+    token: ,                pos tag: PUNCT          lemma: ,
+    token: but              pos tag: CCONJ          lemma: but
+    token: a                pos tag: DET            lemma: a
+    token: lot              pos tag: NOUN           lemma: lot
+    token: of               pos tag: ADP            lemma: of
+    token: things           pos tag: NOUN           lemma: thing
+    token: have             pos tag: VERB           lemma: have
+    token: to               pos tag: PART           lemma: to
+    token: be               pos tag: AUX            lemma: be
+    token: decided          pos tag: VERB           lemma: decide
+    token: for              pos tag: ADP            lemma: for
+    token: them             pos tag: PRON           lemma: they
+    token: -                pos tag: PUNCT          lemma: -
 turn 574
     sentence: well of cousre
     token: well            pos tag: INTJ          lemma: well
@@ -8109,7 +8159,7 @@ turn 580
     token: a                  pos tag: DET           lemma: a
     token: set                pos tag: NOUN          lemma: set
 turn 581
-    sentence: instead of saying "read this. write that."
+    sentence: instead of saying "read this.
     token: instead          pos tag: ADV            lemma: instead
     token: of               pos tag: ADP            lemma: of
     token: saying           pos tag: VERB           lemma: say
@@ -8117,10 +8167,11 @@ turn 581
     token: read             pos tag: VERB           lemma: read
     token: this             pos tag: PRON           lemma: this
     token: .                pos tag: PUNCT          lemma: .
-    token: write            pos tag: VERB           lemma: write
-    token: that             pos tag: PRON           lemma: that
-    token: .                pos tag: PUNCT          lemma: .
-    token: "                pos tag: PUNCT          lemma: "
+    sentence: write that."
+    token: write          pos tag: VERB           lemma: write
+    token: that           pos tag: PRON           lemma: that
+    token: .              pos tag: PUNCT          lemma: .
+    token: "              pos tag: PUNCT          lemma: "
 turn 582
     sentence: never free reign
     token: never          pos tag: ADV           lemma: never
@@ -8238,22 +8289,28 @@ turn 593
     sentence: agreed
     token: agreed          pos tag: VERB          lemma: agree
 turn 594
-    sentence: 1. hands-on activities 2. workplace (internships?) 3. more male teachers 4. extracurricular activities- more physical activity 5. range of choices- more individuation
-    token: 1                        pos tag: X              lemma: 1
-    token: .                        pos tag: X              lemma: .
-    token: hands                    pos tag: NOUN           lemma: hand
-    token: -                        pos tag: PUNCT          lemma: -
-    token: on                       pos tag: ADP            lemma: on
-    token: activities               pos tag: NOUN           lemma: activity
-    token: 2                        pos tag: NUM            lemma: 2
-    token: .                        pos tag: NOUN           lemma: .
-    token: workplace                pos tag: NOUN           lemma: workplace
-    token: (                        pos tag: PUNCT          lemma: (
-    token: internships              pos tag: NOUN           lemma: internship
-    token: ?                        pos tag: PUNCT          lemma: ?
-    token: )                        pos tag: PUNCT          lemma: )
-    token: 3                        pos tag: X              lemma: 3
-    token: .                        pos tag: PUNCT          lemma: .
+    sentence: 1. hands-on activities 2. workplace (internships?)
+    token: 1                    pos tag: X              lemma: 1
+    token: .                    pos tag: X              lemma: .
+    token: hands                pos tag: NOUN           lemma: hand
+    token: -                    pos tag: PUNCT          lemma: -
+    token: on                   pos tag: ADP            lemma: on
+    token: activities           pos tag: NOUN           lemma: activity
+    token: 2                    pos tag: NUM            lemma: 2
+    token: .                    pos tag: NOUN           lemma: .
+    token: workplace            pos tag: NOUN           lemma: workplace
+    token: (                    pos tag: PUNCT          lemma: (
+    token: internships          pos tag: NOUN           lemma: internship
+    token: ?                    pos tag: PUNCT          lemma: ?
+    token: )                    pos tag: PUNCT          lemma: )
+    named_entities: 1           type: CARDINAL
+    named_entities: 2           type: CARDINAL
+    named_entities: workplace   type: PERSON
+    sentence: 3.
+    token: 3           pos tag: X              lemma: 3
+    token: .           pos tag: PUNCT          lemma: .
+    named_entities: 3  type: CARDINAL
+    sentence: more male teachers 4. extracurricular activities-
     token: more                     pos tag: ADJ            lemma: more
     token: male                     pos tag: ADJ            lemma: male
     token: teachers                 pos tag: NOUN           lemma: teacher
@@ -8261,22 +8318,19 @@ turn 594
     token: .                        pos tag: PUNCT          lemma: .
     token: extracurricular          pos tag: ADJ            lemma: extracurricular
     token: activities-              pos tag: PART           lemma: activities-
-    token: more                     pos tag: ADV            lemma: more
-    token: physical                 pos tag: ADJ            lemma: physical
-    token: activity                 pos tag: NOUN           lemma: activity
-    token: 5                        pos tag: NUM            lemma: 5
-    token: .                        pos tag: PUNCT          lemma: .
-    token: range                    pos tag: NOUN           lemma: range
-    token: of                       pos tag: ADP            lemma: of
-    token: choices-                 pos tag: PRON           lemma: choices-
-    token: more                     pos tag: ADJ            lemma: more
-    token: individuation            pos tag: NOUN           lemma: individuation
-    named_entities: 1               type: CARDINAL
-    named_entities: 2               type: CARDINAL
-    named_entities: workplace       type: PERSON
-    named_entities: 3               type: CARDINAL
     named_entities: 4               type: CARDINAL
-    named_entities: 5               type: CARDINAL
+    sentence: more physical activity 5. range of choices- more individuation
+    token: more                   pos tag: ADV            lemma: more
+    token: physical               pos tag: ADJ            lemma: physical
+    token: activity               pos tag: NOUN           lemma: activity
+    token: 5                      pos tag: NUM            lemma: 5
+    token: .                      pos tag: PUNCT          lemma: .
+    token: range                  pos tag: NOUN           lemma: range
+    token: of                     pos tag: ADP            lemma: of
+    token: choices-               pos tag: PRON           lemma: choices-
+    token: more                   pos tag: ADJ            lemma: more
+    token: individuation          pos tag: NOUN           lemma: individuation
+    named_entities: 5             type: CARDINAL
 turn 595
     sentence: works for me
     token: works          pos tag: VERB          lemma: work
@@ -8289,24 +8343,28 @@ turn 597
     sentence: sure
     token: sure          pos tag: ADJ          lemma: sure
 turn 598
-    sentence: this is proly not even my real first name i'm using. great list though! excellent work, thanks for compiling that julie
-    token: this               pos tag: PRON           lemma: this
-    token: is                 pos tag: AUX            lemma: be
-    token: proly              pos tag: ADJ            lemma: proly
-    token: not                pos tag: PART           lemma: not
-    token: even               pos tag: ADV            lemma: even
-    token: my                 pos tag: PRON           lemma: my
-    token: real               pos tag: ADJ            lemma: real
-    token: first              pos tag: ADJ            lemma: first
-    token: name               pos tag: NOUN           lemma: name
-    token: i                  pos tag: PRON           lemma: I
-    token: 'm                 pos tag: AUX            lemma: be
-    token: using              pos tag: VERB           lemma: use
-    token: .                  pos tag: PUNCT          lemma: .
-    token: great              pos tag: ADJ            lemma: great
-    token: list               pos tag: NOUN           lemma: list
-    token: though             pos tag: ADV            lemma: though
-    token: !                  pos tag: PUNCT          lemma: !
+    sentence: this is proly not even my real first name
+    token: this            pos tag: PRON          lemma: this
+    token: is              pos tag: AUX           lemma: be
+    token: proly           pos tag: ADJ           lemma: proly
+    token: not             pos tag: PART          lemma: not
+    token: even            pos tag: ADV           lemma: even
+    token: my              pos tag: PRON          lemma: my
+    token: real            pos tag: ADJ           lemma: real
+    token: first           pos tag: ADJ           lemma: first
+    token: name            pos tag: NOUN          lemma: name
+    named_entities: first  type: ORDINAL
+    sentence: i'm using.
+    token: i              pos tag: PRON           lemma: I
+    token: 'm             pos tag: AUX            lemma: be
+    token: using          pos tag: VERB           lemma: use
+    token: .              pos tag: PUNCT          lemma: .
+    sentence: great list though!
+    token: great           pos tag: ADJ            lemma: great
+    token: list            pos tag: NOUN           lemma: list
+    token: though          pos tag: ADV            lemma: though
+    token: !               pos tag: PUNCT          lemma: !
+    sentence: excellent work, thanks for compiling that julie
     token: excellent          pos tag: ADJ            lemma: excellent
     token: work               pos tag: NOUN           lemma: work
     token: ,                  pos tag: PUNCT          lemma: ,
@@ -8315,7 +8373,6 @@ turn 598
     token: compiling          pos tag: VERB           lemma: compile
     token: that               pos tag: SCONJ          lemma: that
     token: julie              pos tag: PROPN          lemma: julie
-    named_entities: first     type: ORDINAL
 turn 599
     sentence: sounds good
     token: sounds          pos tag: VERB          lemma: sound
