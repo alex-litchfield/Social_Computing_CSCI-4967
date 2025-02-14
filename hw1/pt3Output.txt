@@ -1,0 +1,12 @@
+                     # pronouns                                # pronouns           
+ted (Group A)        62                   meg (Group A)        217                  
+rick (Group B)       80                   lynn (Group A)       119                  
+david (Group B)      278                  caroline (Group A)   106                  
+                                          rita (Group A)       54                   
+                                          julie (Group B)      57                   
+                                          leah (Group B)       95                   
+                                          vicky (Group B)      133                  
+                                          macy (Group B)       66                   
+
+Average number of prounouns used by males: 140.0
+Average number of prounouns used by females: 105.875
