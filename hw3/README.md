@@ -1,6 +1,6 @@
 # Note to Grader:
 
-There are currently 2 submissions for this assignment in Box, please use this one for grading as it some some updated
+There are currently 2 submissions for this assignment in Box, please use this one for grading as it has some updated
 information.
 
 During my presentation today (4/17/2025) Professor Strzalkowski asked if I had included metrics for each label within
